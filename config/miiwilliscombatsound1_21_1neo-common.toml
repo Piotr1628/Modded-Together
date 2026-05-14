@@ -1,0 +1,55 @@
+["Combat Sounds"]
+	#Volume for normal hit sounds (Range: 0.0 - 1.0, Default: 0.5)
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	hit_volume = 1.0
+	#Volume for critical/air hit sounds (Range: 0.0 - 1.0, Default: 0.7)
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	crit_volume = 1.0
+
+["Crafting Sounds"]
+	#Enable categorized crafting sounds. If true, different items play different sounds based on category (tools, wood, miscellaneous, normal). If false, uses the original simple crafting sounds (inventory vs crafting table).
+	use_categorized_crafting_sounds = true
+
+	["Crafting Sounds"."Old Crafting Sounds (used when categorized is disabled)"]
+		#Volume for inventory crafting sounds (Range: 0.0 - 1.0, Default: 0.5)
+		# Default: 1.0
+		# Range: 0.0 ~ 2.0
+		inventory_craft_volume = 1.0
+		#Volume for crafting table sounds (Range: 0.0 - 1.0, Default: 0.5)
+		# Default: 1.0
+		# Range: 0.0 ~ 2.0
+		table_craft_volume = 1.0
+
+	["Crafting Sounds"."New Categorized Crafting Sounds (used when categorized is enabled)"]
+		#Volume for wood crafting sounds (wood planks, etc.) (Range: 0.0 - 1.0, Default: 0.6)
+		# Default: 1.0
+		# Range: 0.0 ~ 2.0
+		wood_craft_volume = 1.0
+		#Volume for miscellaneous item sounds (flint and steel, etc.) (Range: 0.0 - 1.0, Default: 0.6)
+		# Default: 1.0
+		# Range: 0.0 ~ 2.0
+		misc_craft_volume = 1.0
+		#Volume for normal item sounds (bread, etc.) (Range: 0.0 - 1.0, Default: 0.5)
+		# Default: 1.0
+		# Range: 0.0 ~ 2.0
+		normal_craft_volume = 1.0
+		#Volume for tool crafting sounds (pickaxes, swords, axes, shovels) (Range: 0.0 - 1.0, Default: 0.7)
+		# Default: 1.0
+		# Range: 0.0 ~ 2.0
+		tool_craft_volume = 1.0
+
+[Cooldowns]
+	#Cooldown for player hit sounds in ticks (20 ticks = 1 second, Default: 10 = 0.5 seconds)
+	# Default: 10
+	# Range: 0 ~ 100
+	player_hit_cooldown = 10
+	#Cooldown for crafting sounds in ticks (20 ticks = 1 second, Default: 5 = 0.25 seconds)
+	# Default: 5
+	# Range: 0 ~ 100
+	crafting_cooldown = 5
+
+["Custom Weapon Items"]
+	#All SWORDS, AXES, PICKAXES and SHOVELS (including modded) are AUTO-SUPPORTED via tags! Add other custom weapons here (e.g., modname:custom_weapon)
+	weapon_items = []
