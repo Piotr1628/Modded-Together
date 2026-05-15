@@ -9,7 +9,7 @@
 	#Allowed Values: DEFAULT, EASY_READING
 	bookTheme = "DEFAULT"
 	#Should the scroll direction be reversed in the encyclopedia arcana entry screen? This simply affects how you move through pages in an entry.
-	scrollDirection = false
+	scrollDirection = true
 
 [scarf]
 	#How long should the Malignant Stronghold Scarf be? This value will affect all rendered scarves, not just the one worn by the local player.
@@ -19,4 +19,4 @@
 
 [renderpass]
 	#Enable or disable the parallel world renderer, used for various effects related to a certain feature. Disable if it causes framerate issues.
-	renderParallelWorld = true
+	renderParallelWorld = false
