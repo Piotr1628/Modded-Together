@@ -10,7 +10,7 @@
 
 ["HUD Settings"]
 	#Whether the TES HUD should be enabled or not
-	hudEnabled = true
+	hudEnabled = false
 	#What position the TES HUD should render in
 	#Allowed Values: TOP_LEFT, CENTER_TOP, TOP_RIGHT, CENTER_RIGHT, BOTTOM_RIGHT, BOTTOM_LEFT, CENTER_LEFT
 	hudRenderPosition = "TOP_LEFT"
@@ -85,7 +85,7 @@
 
 ["In-World Bars Settings"]
 	#Whether TES should do in-world entity status bars
-	inWorldBarsEnabled = true
+	inWorldBarsEnabled = false
 	#Whether the TES in-world HUD should be enabled for the player or not
 	inWorldHudForSelf = false
 	#When the TES in-world status bars should render
@@ -113,10 +113,10 @@
 	#BAR_ICONS - Display in the BAR style, but with the health numerically displayed in the stats icons row
 	#COMBINED - Use a health-bar style render with numeric values overlaid
 	#Allowed Values: NUMERIC, BAR, BAR_ICONS, COMBINED
-	inWorldBarsRenderType = "BAR"
+	inWorldBarsRenderType = "BAR_ICONS"
 	#What style TES font should render in for entity health in the in-world HUD (if applicable)
 	#Allowed Values: NORMAL, DROP_SHADOW, GLOWING, OUTLINED
-	inWorldHudHealthFontStyle = "NORMAL"
+	inWorldHudHealthFontStyle = "DROP_SHADOW"
 	#How opaque the TES in-world entity HUD should be.
 	# Default: 1.0
 	# Range: 0.0 ~ 1.0
