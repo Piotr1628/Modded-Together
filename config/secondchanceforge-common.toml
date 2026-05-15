@@ -19,7 +19,7 @@
 	#Determines how much health the player must start with for 'Second Chance' to activate.
 	# Default: 13.5
 	# Range: 0.5 ~ 1.7976931348623157E308
-	secondChanceActivationHealth = 13.5
+	secondChanceActivationHealth = 20.0
 	#Determines how much health the player should be left with after 'Second Chance' activates.
 	# Default: 1.0
 	# Range: 1.0 ~ 1.7976931348623157E308
