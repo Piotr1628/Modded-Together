@@ -9,7 +9,7 @@
 	/**
 	 * Whether cheating in items is enabled.
 	 */
-	cheat-mode: creative;
+	cheat-mode: true;
 
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
@@ -61,12 +61,12 @@
 	/**
 	 * Whether to add mod name to tooltips
 	 */
-	append-mod-id: true;
+	append-mod-id: false;
 
 	/**
 	 * Whether to add mod name to item tooltips, in case another mod provides behavior
 	 */
-	append-item-mod-id: true;
+	append-item-mod-id: false;
 
 	/**
 	 * Prevents recipes being quick crafted from shifting around under the cursor.
@@ -88,7 +88,7 @@
 	 * Whether to have the search bar in the center of the screen, instead of to the
 	 * side.
 	 */
-	center-search-bar: true;
+	center-search-bar: false;
 
 	/**
 	 * Which sidebar type to switch to when searching.
@@ -98,17 +98,17 @@
 	/**
 	 * Which sidebar type to focus when the search is empty.
 	 */
-	empty-search-sidebar-focus: none;
+	empty-search-sidebar-focus: empty;
 
 	/**
 	 * Whether the EMI config button should be visible.
 	 */
-	emi-config-button-visibility: shown;
+	emi-config-button-visibility: hidden;
 
 	/**
 	 * Whether the recipe tree button should be visible.
 	 */
-	recipe-tree-button-visibility: auto;
+	recipe-tree-button-visibility: hidden;
 
 	/**
 	 * The maximum height the recipe screen will grow to be if space is available in
@@ -136,7 +136,7 @@
 	/**
 	 * Display cost per batch when hovering a recipe output
 	 */
-	show-cost-per-batch: true;
+	show-cost-per-batch: false;
 
 	/**
 	 * Whether recipes should have a button to set as default.
@@ -182,7 +182,7 @@
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
 	 */
-	left-sidebar-margins: 2, 2, 2, 2;
+	left-sidebar-margins: 12, 2, 2, 2;
 
 	/**
 	 * Where to position the left sidebar
@@ -192,7 +192,7 @@
 	/**
 	 * Whether to render the header buttons and page count for the left sidebar
 	 */
-	left-sidebar-header: visible;
+	left-sidebar-header: invisible;
 
 	/**
 	 * Which theme to use for the left sidebar
@@ -202,7 +202,7 @@
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: index, craftables;
+	right-sidebar-pages: index, empty;
 
 	/**
 	 * The subpanels in the right sidebar
@@ -212,7 +212,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
 	 */
-	right-sidebar-size: 12, 100;
+	right-sidebar-size: 10, 100;
 
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels
@@ -262,7 +262,7 @@
 	/**
 	 * Whether to render the header buttons and page count for the top sidebar
 	 */
-	top-sidebar-header: visible;
+	top-sidebar-header: invisible;
 
 	/**
 	 * Which theme to use for the top sidebar
@@ -272,7 +272,7 @@
 	/**
 	 * The pages in the bottom sidebar
 	 */
-	bottom-sidebar-pages: none;
+	bottom-sidebar-pages: craftables, empty;
 
 	/**
 	 * The subpanels in the bottom sidebar
@@ -282,7 +282,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the bottom sidebar to
 	 */
-	bottom-sidebar-size: 9, 9;
+	bottom-sidebar-size: 9, 6;
 
 	/**
 	 * How much space to maintain between the bottom sidebar and obstructions, in
@@ -293,12 +293,12 @@
 	/**
 	 * Where to position the bottom sidebar
 	 */
-	bottom-sidebar-align: center, center;
+	bottom-sidebar-align: center, top;
 
 	/**
 	 * Whether to render the header buttons and page count for the bottom sidebar
 	 */
-	bottom-sidebar-header: visible;
+	bottom-sidebar-header: invisible;
 
 	/**
 	 * Which theme to use for the bottom sidebar
@@ -430,7 +430,7 @@
 	/**
 	 * Copies the hovered recipe's ID to the clipboard
 	 */
-	copy-recipe-id: "key.keyboard.unknown";
+	copy-recipe-id: "key.keyboard.tab";
 
 	/**
 	 * In edit mode, hide the hovered stack
