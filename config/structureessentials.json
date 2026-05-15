@@ -5,7 +5,7 @@
   },
   "structureSearchTimeout": {
     "desc:": "The maximum time (in seconds) a structure search is allowed to take. Default: 50",
-    "structureSearchTimeout": 50
+    "structureSearchTimeout": 10
   },
   "useFastStructureLookup": {
     "desc:": "Enables faster structure search. Default: true",
@@ -29,18 +29,18 @@
   },
   "logDuplicatedSalt": {
     "desc:": "Structure sets use a salt value to determine the randomness of their placement. Duplicated use of the same salt value can cause structures to spawn on the same place, this config enables logging duplicated salt values. Default: true",
-    "logDuplicatedSalt": true
+    "logDuplicatedSalt": false
   },
   "minimumStructureDistance": {
     "desc:": "Set a minimum distance in blocks between structures generated which prevents structure overlaps(not 100% but close). Not recommended to use higher values, as that may strain the worldgen due to repeated structure retries and can prevent surfaces structures when there is some in a cave below. If you want structures more spaced out than this use the spacing/seperation modifier. Default: 32 blocks, range 16-512",
-    "minimumStructureDistance": 32,
+    "minimumStructureDistance": 48,
     "enabled": false,
-    "logOverlaps": false
+    "logOverlaps": true
   },
   "autoBiomeCompat": {
     "desc:": "Automatically analyzes present biomes and adjust structure spawning to include fitting ones, Note that this may also spawn structures in undesired biomes, check the logging and adjust the strictness up/down to achieve a good result. Default: false",
-    "enableBiomeCompat": false,
-    "enableLogging": true,
+    "enableBiomeCompat": true,
+    "enableLogging": false,
     "strictness": {
       "desc:": "Sets a modifier for how strict the autoBiomeCompat is, lower allows adding less similar biomes to be added. E.g. 0.5 decreases the similarity requirements by 50% . Default: 1.2",
       "autoBiomeCompatStrictness": 1.2
