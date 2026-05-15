@@ -27,28 +27,28 @@
       "canSpawn": true
     },
     "lonestarSkeleton": {
-      "maxHealth": 20.0,
+      "maxHealth": 40.0,
       "armor": 0.0,
       "attackDamage": 3.2,
       "followRange": 16.0,
       "canSpawn": true
     },
     "nightfallSpider": {
-      "maxHealth": 10.0,
+      "maxHealth": 30.0,
       "armor": 0.0,
       "attackDamage": 2.0,
       "followRange": 16.0,
       "canSpawn": true
     },
     "seeker": {
-      "maxHealth": 15.0,
+      "maxHealth": 35.0,
       "armor": 0.0,
       "attackDamage": 3.0,
       "followRange": 16.0,
       "canSpawn": true
     },
     "thirstWalker": {
-      "maxHealth": 40.0,
+      "maxHealth": 60.0,
       "armor": 0.0,
       "attackDamage": 4.5,
       "followRange": 32.0,
@@ -70,7 +70,7 @@
       "canSpawn": true
     },
     "stranghoul": {
-      "maxHealth": 30.0,
+      "maxHealth": 50.0,
       "armor": 2.0,
       "attackDamage": 2.0,
       "followRange": 32.0,
@@ -134,7 +134,7 @@
       "canSpawn": true
     },
     "aethersentGolem": {
-      "maxHealth": 40.0,
+      "maxHealth": 60.0,
       "armor": 10.0,
       "canSpawn": true
     },
@@ -153,14 +153,14 @@
       "canSpawn": true
     },
     "twilightGaze": {
-      "maxHealth": 10.0,
+      "maxHealth": 20.0,
       "armor": 0.0,
       "attackDamage": 3.0,
       "followRange": 16.0,
       "canSpawn": true
     },
     "theGatekeeper": {
-      "maxHealth": 175.0,
+      "maxHealth": 275.0,
       "armor": 15.0,
       "attackDamage": 5.0,
       "followRange": 200.0,
@@ -175,21 +175,21 @@
       "canSpawn": true
     },
     "freeze": {
-      "maxHealth": 15.0,
+      "maxHealth": 35.0,
       "armor": 0.0,
       "attackDamage": 3.0,
       "followRange": 32.0,
       "canSpawn": true
     },
     "permafrost": {
-      "maxHealth": 120.0,
+      "maxHealth": 220.0,
       "armor": 10.0,
       "attackDamageScale": 1.0,
       "followRange": 200.0,
       "canSpawn": true
     },
     "lunarMonstrosity": {
-      "maxHealth": 200.0,
+      "maxHealth": 600.0,
       "armor": 12.0,
       "attackDamageScale": 1.0,
       "followRange": 200.0,
