@@ -1,12 +1,12 @@
 {
   "schemaVersion": 9,
   "currentVersion": "1.0.0",
-  "modpackName": "Modpack Name Goes Here",
-  "modpackAuthor": "My Modpack Studio",
+  "modpackName": "Modded Together",
+  "modpackAuthor": "Pitersonix",
   "modpackReleaseType": "stable",
-  "updateCheckerId": "https://raw.githubusercontent.com/Modpack-Update-Checker/example-update-checker/main/",
+  "updateCheckerId": "https://github.com/Piotr1628/Modded-Together-Issues/tree/main/updates/",
   "advanced": {
-    "bccEnabled": false,
+    "bccEnabled": true,
     "expandButton": false,
     "updateCheckerType": 2,
     "retroWarning": false,
