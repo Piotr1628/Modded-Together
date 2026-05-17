@@ -1,0 +1,1 @@
+This section displays details about the current version, any prior updates, and notifies users when a new update is available. It also indicates whether the update is free, recommends creating backups before proceeding, and warns if the new update is incompatible with the existing one.
