@@ -1,11 +1,13 @@
-"versions": [
+{
+  "versions": [
     {
-        "id": "1.2.6",
-        "releasedAt": 1777144680,
-        "promotions": {
-            "downloads": {
-                "curseforge": "https://www.curseforge.com/minecraft/modpacks/moddedtogether/download/7983572",
-            }
+      "id": "1.2.6",
+      "releasedAt": 1777144680,
+      "promotions": {
+        "downloads": {
+          "curseforge": "https://www.curseforge.com/minecraft/modpacks/moddedtogether/download/7983572"
         }
+      }
     }
-]
+  ]
+}
