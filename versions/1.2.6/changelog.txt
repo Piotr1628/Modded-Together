@@ -6,8 +6,6 @@
 
 [![Partner Banner](https://media.forgecdn.net/attachments/1295121/changelog/changelog_2daa25df-56a3-48ef-95a8-980e4924a04c.png)](https://wabbanode.com/partner/moddedtogether)
 
----
-
 ## New Content
 
 - Added **Wireless Crafting Terminal**
