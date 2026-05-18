@@ -1,8 +1,10 @@
 {
+  "schemaVersion": 1,
+  "hotfixesFormat": null,
   "versions": [
     {
       "id": "1.2.6",
-      "releasedAt": 1777144680,
+      "releasedAt": 1777144680000,
       "promotions": {
         "downloads": {
           "curseforge": "https://www.curseforge.com/minecraft/modpacks/moddedtogether/download/7983572"
