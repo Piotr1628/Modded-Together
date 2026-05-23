@@ -1,0 +1,50 @@
+"client":
+  "screen_scale": 1.0
+  "first_person_shoulder_entity_position": "bottom"
+"server":
+  "book_item_required": true
+  "book_item_obtainable_from_wandering_trader": true
+  "inherit_silent_from_parents": true
+  "discovery_strategy": "vanilla_kill"
+  "allow_overview_for_undiscovered_entities": false
+  "skill_costs":
+    "highlight_entities":
+      "exp_points": 16
+      "items":
+      - "item": "minecraft:ender_eye"
+    "get_spawn_egg":
+      "creative_only": true
+    "set_variant":
+      "creative_only": true
+    "set_invulnerable":
+      "creative_only": true
+    "set_sound":
+      "items":
+      - "item": "minecraft:white_wool"
+    "set_portal_cooldown":
+      "exp_points": 1
+    "set_no_ai":
+      "exp_levels": 5
+      "exp_level_required": 20
+      "items":
+      - "item": "minecraft:totem_of_undying"
+    "force_persistent":
+      "items":
+      - "item": "minecraft:paper"
+      - "item": "minecraft:iron_nugget"
+    "steal_inventory": {}
+    "force_eat_grass": {}
+    "set_forced_age":
+      "items":
+      - "item": "minecraft:dandelion"
+      - "item": "minecraft:gold_nugget"
+        "count": 8
+    "clear_hive":
+      "exp_points": 1
+    "gift_pet": {}
+    "force_restock":
+      "items":
+      - "item": "minecraft:emerald"
+    "retain":
+      "items":
+      - "item": "minecraft:water_bucket"

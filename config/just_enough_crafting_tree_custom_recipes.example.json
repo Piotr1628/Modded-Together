@@ -1,0 +1,28 @@
+[
+  {
+    "label": "Example crushing",
+    "type": "crusher",
+    "outputs": [
+      { "item": "minecraft:gravel", "count": 2 },
+      { "item": "minecraft:flint", "count": 1 }
+    ],
+    "inputs": [
+      { "item": "minecraft:cobblestone", "count": 1 }
+    ],
+    "machines": [
+      "minecraft:stonecutter"
+    ]
+  },
+  {
+    "label": "Example alloy",
+    "outputs": { "item": "minecraft:iron_ingot", "count": 1 },
+    "inputs": [
+      { "tag": "minecraft:coals", "count": 1 },
+      { "item": "minecraft:raw_iron", "count": 1 }
+    ],
+    "stations": [
+      "minecraft:furnace",
+      "minecraft:blast_furnace"
+    ]
+  }
+]

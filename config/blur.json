@@ -1,0 +1,27 @@
+{
+  "configVersion": 3,
+  "blurContainers": false,
+  "blurBooks": true,
+  "blurSigns": true,
+  "blurCommandBlocks": true,
+  "blurTitleScreen": true,
+  "darkenTitleScreen": false,
+  "showScreenID": false,
+  "forceEnabledScreens": [],
+  "forceDisabledScreens": [
+    "net.irisshaders.iris.gui.screen.ShaderPackScreen",
+    "net.createmod.ponder.foundation.ui.PonderUI",
+    "org.z2six.ezactions.gui.RadialMenuScreen"
+  ],
+  "useGradient": true,
+  "gradientStart": "#000000",
+  "gradientStartAlpha": 100,
+  "gradientEnd": "#000000",
+  "gradientEndAlpha": 215,
+  "gradientRotation": 0,
+  "rainbowMode": false,
+  "fadeTimeMillis": 300,
+  "fadeOutTimeMillis": 0,
+  "blurAnimationCurve": "FLAT",
+  "backgroundAnimationCurve": "FLAT"
+}

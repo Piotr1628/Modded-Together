@@ -1,0 +1,675 @@
+{
+  "config_version": "2.0.24",
+  "config_datetime": "2026-05-17_21-24-11",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": false,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 1.2
+  },
+  "structure_namespaces": [
+    {
+      "name": "global",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": false,
+      "min_distance_from_world_center": 800,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": true
+    }
+  ],
+  "structures": [
+    {
+      "name": "minecraft:ruined_portal",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_mountain",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_ocean",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_swamp",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:stronghold",
+      "step": "strongholds"
+    },
+    {
+      "name": "ae2:meteorite",
+      "whitelisted_biomes": [
+        "eternal_starlight:umbral_plains",
+        "eternal_starlight:torreya_forest",
+        "eternal_starlight:starlight_dense_forest",
+        "eternal_starlight:starlight_forest",
+        "eternal_starlight:scarlet_forest",
+        "eternal_starlight:permafrost_peaks",
+        "eternal_starlight:lucent_mycelium_isle",
+        "eternal_starlight:grim_shore",
+        "eternal_starlight:glimmer_scrubland",
+        "eternal_starlight:ether_river",
+        "eternal_starlight:dark_swamp",
+        "eternal_starlight:crystallized_desert"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:mushroom_fields",
+        "minecraft:deep_frozen_ocean",
+        "minecraft:frozen_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:cold_ocean",
+        "minecraft:deep_ocean",
+        "minecraft:ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:lukewarm_ocean",
+        "minecraft:warm_ocean",
+        "minecraft:stony_shore",
+        "minecraft:swamp",
+        "minecraft:mangrove_swamp",
+        "minecraft:snowy_slopes",
+        "minecraft:snowy_plains",
+        "minecraft:snowy_beach",
+        "minecraft:windswept_gravelly_hills",
+        "minecraft:grove",
+        "minecraft:windswept_hills",
+        "minecraft:snowy_taiga",
+        "minecraft:windswept_forest",
+        "minecraft:taiga",
+        "minecraft:plains",
+        "minecraft:meadow",
+        "minecraft:beach",
+        "minecraft:forest",
+        "minecraft:old_growth_spruce_taiga",
+        "minecraft:flower_forest",
+        "minecraft:birch_forest",
+        "minecraft:dark_forest",
+        "minecraft:savanna_plateau",
+        "minecraft:savanna",
+        "minecraft:jungle",
+        "minecraft:badlands",
+        "minecraft:desert",
+        "minecraft:wooded_badlands",
+        "minecraft:jagged_peaks",
+        "minecraft:stony_peaks",
+        "minecraft:frozen_river",
+        "minecraft:river",
+        "minecraft:ice_spikes",
+        "minecraft:old_growth_pine_taiga",
+        "minecraft:sunflower_plains",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:sparse_jungle",
+        "minecraft:bamboo_jungle",
+        "minecraft:eroded_badlands",
+        "minecraft:windswept_savanna",
+        "minecraft:cherry_grove",
+        "minecraft:frozen_peaks",
+        "minecraft:dripstone_caves",
+        "minecraft:lush_caves",
+        "minecraft:deep_dark",
+        "climaterivers:cold_river",
+        "climaterivers:lukewarm_river",
+        "climaterivers:warm_river",
+        "biomeswevegone:allium_shrubland",
+        "biomeswevegone:amaranth_grassland",
+        "biomeswevegone:araucaria_savanna",
+        "biomeswevegone:aspen_boreal",
+        "biomeswevegone:atacama_outback",
+        "biomeswevegone:baobab_savanna",
+        "biomeswevegone:basalt_barrera",
+        "biomeswevegone:bayou",
+        "biomeswevegone:black_forest",
+        "biomeswevegone:canadian_shield",
+        "biomeswevegone:cika_woods",
+        "biomeswevegone:coconino_meadow",
+        "biomeswevegone:coniferous_forest",
+        "biomeswevegone:crag_gardens",
+        "biomeswevegone:crimson_tundra",
+        "biomeswevegone:cypress_swamplands",
+        "biomeswevegone:cypress_wetlands",
+        "biomeswevegone:dacite_ridges",
+        "biomeswevegone:dacite_shore",
+        "biomeswevegone:dead_sea",
+        "biomeswevegone:ebony_woods",
+        "biomeswevegone:enchanted_tangle",
+        "biomeswevegone:eroded_borealis",
+        "biomeswevegone:firecracker_chaparral",
+        "biomeswevegone:forgotten_forest",
+        "biomeswevegone:fragment_jungle",
+        "biomeswevegone:frosted_coniferous_forest",
+        "biomeswevegone:frosted_taiga",
+        "biomeswevegone:howling_peaks",
+        "biomeswevegone:ironwood_gour",
+        "biomeswevegone:jacaranda_jungle",
+        "biomeswevegone:lush_stacks",
+        "biomeswevegone:maple_taiga",
+        "biomeswevegone:mojave_desert",
+        "biomeswevegone:orchard",
+        "biomeswevegone:overgrowth_woodlands",
+        "biomeswevegone:pale_bog",
+        "biomeswevegone:prairie",
+        "biomeswevegone:pumpkin_valley",
+        "biomeswevegone:rainbow_beach",
+        "biomeswevegone:red_rock_peaks",
+        "biomeswevegone:red_rock_valley",
+        "biomeswevegone:redwood_thicket",
+        "biomeswevegone:rose_fields",
+        "biomeswevegone:rugged_badlands",
+        "biomeswevegone:sakura_grove",
+        "biomeswevegone:shattered_glacier",
+        "biomeswevegone:sierra_badlands",
+        "biomeswevegone:skyris_vale",
+        "biomeswevegone:temperate_grove",
+        "biomeswevegone:tropical_rainforest",
+        "biomeswevegone:weeping_witch_forest",
+        "biomeswevegone:white_mangrove_marshes",
+        "biomeswevegone:windswept_desert",
+        "biomeswevegone:zelkova_forest",
+        "ars_nouveau:archwood_forest",
+        "ars_elemental:flashing_forest",
+        "ars_elemental:blazing_forest",
+        "ars_elemental:cascading_forest",
+        "ars_elemental:flourishing_forest",
+        "ars_elemental:vexing_caves",
+        "alexscaves:magnetic_caves",
+        "alexscaves:primordial_caves",
+        "alexscaves:toxic_caves",
+        "alexscaves:abyssal_chasm",
+        "alexscaves:forlorn_hollows",
+        "alexscaves:candy_cavity",
+        "regions_unexplored:autumnal_maple_forest",
+        "regions_unexplored:bamboo_forest",
+        "regions_unexplored:magnolia_woodland",
+        "regions_unexplored:deciduous_forest",
+        "regions_unexplored:maple_forest",
+        "regions_unexplored:mauve_hills",
+        "regions_unexplored:orchard",
+        "regions_unexplored:silver_birch_forest",
+        "regions_unexplored:temperate_grove",
+        "regions_unexplored:willow_forest",
+        "regions_unexplored:blackwood_taiga",
+        "regions_unexplored:boreal_taiga",
+        "regions_unexplored:golden_boreal_taiga",
+        "regions_unexplored:pine_taiga",
+        "regions_unexplored:redwoods",
+        "regions_unexplored:sparse_redwoods",
+        "regions_unexplored:barley_fields",
+        "regions_unexplored:flower_fields",
+        "regions_unexplored:grassland",
+        "regions_unexplored:clover_plains",
+        "regions_unexplored:rocky_meadow",
+        "regions_unexplored:poppy_fields",
+        "regions_unexplored:prairie",
+        "regions_unexplored:pumpkin_fields",
+        "regions_unexplored:shrubland",
+        "regions_unexplored:bayou",
+        "regions_unexplored:eucalyptus_forest",
+        "regions_unexplored:fen",
+        "regions_unexplored:marsh",
+        "regions_unexplored:fungal_fen",
+        "regions_unexplored:old_growth_bayou",
+        "regions_unexplored:sparse_rainforest",
+        "regions_unexplored:rainforest",
+        "regions_unexplored:baobab_savanna",
+        "regions_unexplored:dry_bushland",
+        "regions_unexplored:joshua_desert",
+        "regions_unexplored:outback",
+        "regions_unexplored:saguaro_desert",
+        "regions_unexplored:steppe",
+        "regions_unexplored:arid_mountains",
+        "regions_unexplored:highland_fields",
+        "regions_unexplored:mountains",
+        "regions_unexplored:pine_slopes",
+        "regions_unexplored:towering_cliffs",
+        "regions_unexplored:chalk_cliffs",
+        "regions_unexplored:grassy_beach",
+        "regions_unexplored:gravel_beach",
+        "regions_unexplored:alpha_grove",
+        "regions_unexplored:cold_river",
+        "regions_unexplored:hyacinth_deeps",
+        "regions_unexplored:muddy_river",
+        "regions_unexplored:tropical_river",
+        "regions_unexplored:rocky_reef",
+        "regions_unexplored:ashen_woodland",
+        "regions_unexplored:tropics",
+        "regions_unexplored:cold_boreal_taiga",
+        "regions_unexplored:cold_deciduous_forest",
+        "regions_unexplored:frozen_pine_taiga",
+        "regions_unexplored:frozen_tundra",
+        "regions_unexplored:icy_heights",
+        "regions_unexplored:spires",
+        "regions_unexplored:bioshroom_caves",
+        "regions_unexplored:ancient_delta",
+        "regions_unexplored:prismachasm",
+        "regions_unexplored:redstone_caves",
+        "regions_unexplored:scorching_caves",
+        "quark:glimmering_weald"
+      ]
+    },
+    {
+      "name": "apotheosis:tower_leaf",
+      "is_disabled": true,
+      "override_global_biome_check": false,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "apotheosis:tower_main",
+      "is_disabled": true,
+      "override_global_biome_check": false,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "apotheosis:tower_sand",
+      "is_disabled": true,
+      "override_global_biome_check": false,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "apotheosis:tower_spruce",
+      "is_disabled": true,
+      "override_global_biome_check": false,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "cataclysm:acropolis",
+      "whitelisted_biomes": [
+        "eternal_starlight:starlit_sea"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:warm_ocean"
+      ]
+    },
+    {
+      "name": "cataclysm:ancient_factory",
+      "whitelisted_biomes": [
+        "eternal_starlight:spiral_kelp_forest",
+        "eternal_starlight:scarlet_forest",
+        "eternal_starlight:permafrost_peaks",
+        "eternal_starlight:lush_shallow_sea",
+        "eternal_starlight:lucent_mycelium_isle",
+        "eternal_starlight:icy_sea",
+        "eternal_starlight:grim_shore",
+        "eternal_starlight:glimmer_scrubland",
+        "eternal_starlight:ether_river",
+        "eternal_starlight:dark_swamp"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:lush_caves",
+        "minecraft:dripstone_caves",
+        "minecraft:deep_dark",
+        "ars_elemental:vexing_caves",
+        "regions_unexplored:scorching_caves",
+        "regions_unexplored:redstone_caves",
+        "regions_unexplored:prismachasm",
+        "regions_unexplored:bioshroom_caves",
+        "regions_unexplored:ancient_delta",
+        "quark:glimmering_weald"
+      ]
+    },
+    {
+      "name": "cataclysm:frosted_prison",
+      "whitelisted_biomes": [
+        "eternal_starlight:permafrost_peaks",
+        "eternal_starlight:crystallized_desert"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:snowy_plains"
+      ],
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "idas:iceandfire/dread_citadel",
+      "whitelisted_biomes": [
+        "eternal_starlight:starlight_dense_forest",
+        "eternal_starlight:dark_swamp",
+        "eternal_starlight:torreya_forest"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:snowy_taiga",
+        "minecraft:grove",
+        "regions_unexplored:cold_boreal_taiga",
+        "regions_unexplored:cold_deciduous_forest",
+        "regions_unexplored:frozen_pine_taiga",
+        "minecraft:snowy_plains",
+        "regions_unexplored:frozen_tundra",
+        "minecraft:ice_spikes",
+        "minecraft:frozen_peaks",
+        "regions_unexplored:icy_heights",
+        "regions_unexplored:spires"
+      ]
+    },
+    {
+      "name": "mowziesmobs:wrought_chamber",
+      "is_disabled": true
+    },
+    {
+      "name": "totw_modded:end",
+      "is_disabled": true
+    }
+  ],
+  "structure_sets": [
+    {
+      "spacing": 34,
+      "separation": 8,
+      "name": "betterend:end_village",
+      "is_disabled": false,
+      "salt": 147624381,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "betterend:end_village": 1
+      }
+    },
+    {
+      "spacing": 90,
+      "separation": 56,
+      "name": "cataclysm:acropolis",
+      "is_disabled": false,
+      "salt": 913530101,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:acropolis": 1
+      }
+    },
+    {
+      "spacing": 36,
+      "separation": 9,
+      "name": "cataclysm:amethyst_nest",
+      "is_disabled": false,
+      "salt": 14325760,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:amethyst_nest": 1
+      }
+    },
+    {
+      "spacing": 126,
+      "separation": 78,
+      "name": "cataclysm:ancient_factory",
+      "is_disabled": false,
+      "salt": 319514301,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:ancient_factory": 1
+      }
+    },
+    {
+      "spacing": 90,
+      "separation": 56,
+      "name": "cataclysm:burning_arena",
+      "is_disabled": false,
+      "salt": 533522197,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:burning_arena": 1
+      }
+    },
+    {
+      "spacing": 90,
+      "separation": 56,
+      "name": "cataclysm:cursed_pyramid",
+      "is_disabled": false,
+      "salt": 577299997,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:cursed_pyramid": 1
+      }
+    },
+    {
+      "spacing": 33,
+      "separation": 22,
+      "name": "cataclysm:desert_structures",
+      "is_disabled": false,
+      "salt": 31547671,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:desert_temple": 1,
+        "cataclysm:desert_occupied_village": 1,
+        "cataclysm:desert_site": 1
+      }
+    },
+    {
+      "spacing": 90,
+      "separation": 56,
+      "name": "cataclysm:frosted_prison",
+      "is_disabled": false,
+      "salt": 935611230,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:frosted_prison": 1
+      }
+    },
+    {
+      "spacing": 56,
+      "separation": 28,
+      "name": "cataclysm:ruined_citadel",
+      "is_disabled": false,
+      "salt": 279953253,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:ruined_citadel": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 50,
+      "name": "cataclysm:soul_black_smith",
+      "is_disabled": false,
+      "salt": 1968970354,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "cataclysm:soul_black_smith": 1
+      }
+    },
+    {
+      "spacing": 112,
+      "separation": 78,
+      "name": "cataclysm:sunken_city",
+      "is_disabled": false,
+      "salt": 794090215,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "cataclysm:sunken_city": 1
+      }
+    },
+    {
+      "spacing": 56,
+      "separation": 45,
+      "name": "dungeons_arise:major_structures",
+      "is_disabled": false,
+      "salt": 1593933700,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "dungeons_arise:keep_kayra": 1,
+        "dungeons_arise:mushroom_village": 1,
+        "dungeons_arise:aviary": 1,
+        "dungeons_arise:typhon": 1,
+        "dungeons_arise:undead_pirate_ship": 1,
+        "dungeons_arise:mining_complex": 1,
+        "dungeons_arise:coliseum": 1,
+        "dungeons_arise:monastery": 1,
+        "dungeons_arise:heavenly_challenger": 1,
+        "dungeons_arise:mushroom_house": 2,
+        "dungeons_arise:bandit_towers": 1,
+        "dungeons_arise:ceryneian_hind": 1,
+        "dungeons_arise:illager_windmill": 1,
+        "dungeons_arise:illager_corsair": 2,
+        "dungeons_arise:kisegi_sanctuary": 1,
+        "dungeons_arise:illager_galley": 2,
+        "dungeons_arise:foundry": 1,
+        "dungeons_arise:heavenly_conqueror": 1,
+        "dungeons_arise:merchant_campsite": 3,
+        "dungeons_arise:mechanical_nest": 1,
+        "dungeons_arise:infested_temple": 1,
+        "dungeons_arise:heavenly_rider": 1,
+        "dungeons_arise:illager_campsite": 3,
+        "dungeons_arise:illager_fort": 1,
+        "dungeons_arise:mushroom_mines": 1,
+        "dungeons_arise:plague_asylum": 1,
+        "dungeons_arise:bandit_village": 1,
+        "dungeons_arise:greenwood_pub": 2,
+        "dungeons_arise:scorched_mines": 1,
+        "dungeons_arise:small_blimp": 3,
+        "dungeons_arise:thornborn_towers": 1,
+        "dungeons_arise:shiraz_palace": 1
+      }
+    },
+    {
+      "spacing": 50,
+      "separation": 45,
+      "name": "dungeons_arise:minor_structures",
+      "is_disabled": false,
+      "salt": 145688320,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "dungeons_arise:bathhouse": 1,
+        "dungeons_arise:lighthouse": 1,
+        "dungeons_arise:fishing_hut": 1,
+        "dungeons_arise:wishing_well": 1,
+        "dungeons_arise:jungle_tree_house": 1,
+        "dungeons_arise:abandoned_temple": 1
+      }
+    },
+    {
+      "spacing": 76,
+      "separation": 50,
+      "name": "dungeons_arise_seven_seas:minor_structures",
+      "is_disabled": false,
+      "salt": 1566498387,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "dungeons_arise_seven_seas:pirate_junk": 1,
+        "dungeons_arise_seven_seas:corsair_corvette": 1,
+        "dungeons_arise_seven_seas:victory_frigate": 1,
+        "dungeons_arise_seven_seas:unicorn_galleon": 1,
+        "dungeons_arise_seven_seas:small_yacht": 1
+      }
+    },
+    {
+      "spacing": 140,
+      "separation": 100,
+      "name": "fdbosses:geburah_arena",
+      "is_disabled": false,
+      "salt": 1661461969,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "fdbosses:geburah_arena": 1
+      }
+    },
+    {
+      "spacing": 160,
+      "separation": 128,
+      "name": "fdbosses:malkuth_arena",
+      "is_disabled": false,
+      "salt": 841491043,
+      "frequency": 0.4,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "fdbosses:malkuth_arena": 1
+      }
+    },
+    {
+      "spacing": 10,
+      "separation": 8,
+      "name": "iceandfire:pixie_village",
+      "is_disabled": false,
+      "salt": 457813616,
+      "frequency": 0.6,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "iceandfire:pixie_village": 1
+      }
+    },
+    {
+      "spacing": 115,
+      "separation": 90,
+      "name": "integrated_villages:air_villages",
+      "is_disabled": false,
+      "salt": 1982700828,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "integrated_villages:airship_village": 1
+      }
+    },
+    {
+      "spacing": 26,
+      "separation": 19,
+      "name": "integrated_villages:regular_villages",
+      "is_disabled": false,
+      "salt": 1982700828,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "integrated_villages:clockwork_village": 1,
+        "integrated_villages:tavern_village": 1,
+        "integrated_villages:marketstead_village": 1,
+        "integrated_villages:quark/minka_village": 1,
+        "integrated_villages:mediterranean_village": 1,
+        "integrated_villages:pirate_village": 1,
+        "integrated_villages:kutcha_village": 1,
+        "integrated_villages:oasis_village": 1,
+        "integrated_villages:cabin_village": 1,
+        "integrated_villages:sunken_village": 1,
+        "integrated_villages:mossy_mounds": 1
+      }
+    }
+  ],
+  "structure_template_pools": []
+}

@@ -1,0 +1,22 @@
+{
+  "formatVersion": 2,
+  "phaseIncompatible": {
+    "Registering categories": [
+      "ftbjeiextras:extended_plugins_loader"
+    ],
+    "Registering recipes": [
+      "justenoughbreeding:jei_plugin",
+      "alshanex_familiars:jei_plugin",
+      "apothic_enchanting:enchantment",
+      "accents:jei_plugin",
+      "irons_spellbooks:jei_plugin",
+      "sauce:main",
+      "create_enchantment_industry:jei",
+      "jeresources:minecraft",
+      "scguns:jei_plugin",
+      "apothic_spawners:spawner",
+      "ars_nouveau:main",
+      "fluid:jei_plugin"
+    ]
+  }
+}

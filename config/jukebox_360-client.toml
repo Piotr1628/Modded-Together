@@ -1,0 +1,5 @@
+[jukebox_360]
+	debug_log = false
+	# Default: 0.85
+	# Range: 0.0 ~ 1.0
+	anchor_blend = 0.85

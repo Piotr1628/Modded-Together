@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"mythsandlegends:cursed_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mythsandlegends:soulpiercer_leggings"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
