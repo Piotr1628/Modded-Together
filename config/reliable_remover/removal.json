@@ -335,7 +335,12 @@
       "eidolon_repraised:silver_pickaxe",
       "eidolon_repraised:silver_axe",
       "eidolon_repraised:silver_shovel",
-      "eidolon_repraised:silver_hoe"
+      "eidolon_repraised:silver_hoe",
+      "scguns:niter_dust",
+      "scguns:niter_block",
+      "scguns:macerator",
+      "scguns:powered_macerator",
+      "apotheosis:sigil_of_supremacy"
     ]
   }
 ]
