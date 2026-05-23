@@ -1,18 +1,4 @@
 ServerEvents.recipes((event) => {
-  event.remove({
-    id: [
-      "transmog:transmogrification_table",
-      "regions_unexplored:light_gray_painted_planks",
-      "regions_unexplored:cyan_painted_planks",
-      "regions_unexplored:purple_painted_planks",
-      "regions_unexplored:blue_painted_planks",
-      "regions_unexplored:brown_painted_planks",
-      "regions_unexplored:green_painted_planks",
-      "regions_unexplored:red_painted_planks",
-      "regions_unexplored:black_painted_planks",
-      "minecraft:copper_trapdoor",
-    ],
-  });
   event.shaped(Item.of("minecraft:copper_trapdoor"), ["   ", " AA", " AA"], {
     A: "minecraft:copper_ingot",
   });

@@ -250,6 +250,18 @@ ServerEvents.recipes((event) => {
       "eternal_starlight:water_crystal",
       //Minecraft
       "minecraft:suspicious_sand",
+      "minecraft:copper_trapdoor",
+      //Transmog
+      "transmog:transmogrification_table",
+      //Regions Unexplored
+      "regions_unexplored:light_gray_painted_planks",
+      "regions_unexplored:cyan_painted_planks",
+      "regions_unexplored:purple_painted_planks",
+      "regions_unexplored:blue_painted_planks",
+      "regions_unexplored:brown_painted_planks",
+      "regions_unexplored:green_painted_planks",
+      "regions_unexplored:red_painted_planks",
+      "regions_unexplored:black_painted_planks",
     ],
   });
   event.remove({
