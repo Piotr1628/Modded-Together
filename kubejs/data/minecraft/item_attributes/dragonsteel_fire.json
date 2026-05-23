@@ -1,0 +1,68 @@
+{
+    "iceandfire:dragonsteel_fire_sword": {
+        "attributes": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "action": "modify",
+                "amount": 10.0,
+                "operation": "add_value"
+            }
+        ]
+    },
+    "iceandfire:dragonsteel_fire_shovel": {
+        "attributes": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "action": "modify",
+                "amount": 7.0,
+                "operation": "add_value"
+            }
+        ]
+    },
+    "iceandfire:dragonsteel_fire_pickaxe": {
+        "attributes": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "action": "modify",
+                "amount": 7.0,
+                "operation": "add_value"
+            }
+        ]
+    },
+    "iceandfire:dragonsteel_fire_hoe": {
+        "attributes": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "action": "modify",
+                "amount": 6.0,
+                "operation": "add_value"
+            }
+        ]
+    },
+    "iceandfire:dragonsteel_fire_axe": {
+        "attributes": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "action": "modify",
+                "amount": 11.0,
+                "operation": "add_value"
+            }
+        ]
+    },
+        "ice_and_fire_spellbooks:ice_dragon_priest_chestplate": {
+        "attributes": [
+            {
+                "attribute": "minecraft:generic.armor",
+                "action": "modify",
+                "amount": 11.0,
+                "operation": "add_value"
+            },
+            {
+                "attribute": "minecraft:generic.armor_toughness",
+                "action": "modify",
+                "amount": 5.0,
+                "operation": "add_value"
+            }
+        ]
+    }
+}
