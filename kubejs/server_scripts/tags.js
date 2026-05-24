@@ -1,6 +1,6 @@
 // ITEMS
 ServerEvents.tags('item', (event) => {
-  event.add('hazennstuff:focus/shadow_focus', 'alexscaves:pure_darkness');
+  event.add('hazentouvelib:focus/radiance_focus', 'eternal_starlight:starlit_diamond');
   event.add('mynethersdelight:boiled_egg_candidate', '#c:eggs');
   event.add('c:eggs', ['reanimal:kiwi_egg', 'reanimal:ostrich_egg', 'reanimal:pigeon_egg', 'reanimal:vulture_egg', 'reanimal:penguin_egg', 'reanimal:crocodile_egg']);
   event.add('nomoremagicchoices:skill_weapon', '#minecraft:enchantable/weapon');
@@ -8,7 +8,7 @@ ServerEvents.tags('item', (event) => {
 
 // BLOCKS
 ServerEvents.tags('block', (event) => {
-  event.add('irons_spellbooks:spectral_hammer_mineable', ['#eternal_starlight:base_stone_starlight', 'alexscaves:galena', 'alexscaves:cake_layer', '#iceandfire:charred_blocks', 'alexscaves:radrock', 'alexscaves:limestone']);
+  event.add('irons_spellbooks:spectral_hammer_mineable', ['#eternal_starlight:base_stone_starlight']);
 });
 
 // EMNTITIES
