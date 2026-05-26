@@ -29,6 +29,11 @@ ServerEvents.recipes((event) => {
       "ae2:quartz_fiber",
       "ae2:quartz_vibrant_glass",
       "ae2:engineering_processor_press",
+      //Extended AE2
+      "extendedae:concurrent_processor_print",
+      "extendedae:concurrent_processor",
+      "extendedae:crystal_assembler",
+      "extendedae:assembler_matrix_frame",
       //Ars Nouveau
       //Essences
       "ars_elemental:anima_essence",

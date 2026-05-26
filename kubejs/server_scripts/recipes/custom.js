@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-  // Add your custom weapon fusion recipes
+  // Cataclysm
   event.custom({
     type: "cataclysm:weapon_fusion",
     base: { item: "simplyswords:runic_longsword" },
@@ -9,7 +9,6 @@ ServerEvents.recipes((event) => {
       id: "crystal_chronicles:paladin_sword",
     },
   });
-
   event.custom({
     type: "cataclysm:weapon_fusion",
     base: { item: "simplyswords:runic_greataxe" },
@@ -19,7 +18,6 @@ ServerEvents.recipes((event) => {
       id: "crystal_chronicles:ice_hammer",
     },
   });
-
   event.custom({
     type: "cataclysm:weapon_fusion",
     base: { item: "simplyswords:runic_greathammer" },
@@ -29,7 +27,6 @@ ServerEvents.recipes((event) => {
       id: "crystal_chronicles:staff",
     },
   });
-
   event.custom({
     type: "cataclysm:weapon_fusion",
     base: { item: "simplyswords:runic_scythe" },
@@ -39,7 +36,6 @@ ServerEvents.recipes((event) => {
       id: "crystal_chronicles:blood_scythe",
     },
   });
-
   event.custom({
     type: "cataclysm:weapon_fusion",
     base: { item: "simplyswords:runic_claymore" },
@@ -49,7 +45,6 @@ ServerEvents.recipes((event) => {
       id: "crystal_chronicles:spear",
     },
   });
-
   event.custom({
     type: "cataclysm:weapon_fusion",
     base: { item: "simplyswords:runic_spear" },
@@ -59,7 +54,6 @@ ServerEvents.recipes((event) => {
       id: "crystal_chronicles:lightning_bident",
     },
   });
-
   event.custom({
     type: "cataclysm:weapon_fusion",
     base: { item: "simplyswords:runic_chakram" },
@@ -69,7 +63,6 @@ ServerEvents.recipes((event) => {
       id: "crystal_chronicles:chakram",
     },
   });
-
   event.custom({
     type: "cataclysm:weapon_fusion",
     base: { item: "cataclysm:azure_sea_shield" },
@@ -78,5 +71,36 @@ ServerEvents.recipes((event) => {
       item: "crystal_chronicles:paladin_shield",
       id: "crystal_chronicles:paladin_shield",
     },
+  });
+  //Starlight
+  event.custom({
+    type: "eternal_starlight:alloy",
+    burn_time: 400,
+    ingredients: [
+      {
+        item: "irons_spellbooks:arcane_ingot",
+      },
+      {
+        item: "eternal_starlight:deepsilver_ingot",
+      },
+      {
+        item: "eternal_starlight:deepsilver_ingot",
+      },
+      {
+        item: "unify:lead_ingot",
+      },
+      {
+        item: "hazennstuff:starkissed_zenalite",
+      },
+    ],
+    results: [
+      {
+        amount: 2,
+        item: {
+          count: 1,
+          id: "hazennstuff:zenalite_ingot",
+        },
+      },
+    ],
   });
 });

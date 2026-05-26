@@ -342,5 +342,16 @@
       "scguns:powered_macerator",
       "apotheosis:sigil_of_supremacy"
     ]
+  },
+  },
+    {
+    "action": "remove",
+    "items": [
+      "extendedae:ex_inscriber",
+      "extendedae:ex_circuit_cutter",
+      "ae2:spatial_anchor",
+      "oritech_portable_laser",
+      "extendedae:circuit_cutter"
+    ]
   }
 ]

@@ -1,34 +1,121 @@
 ServerEvents.recipes((event) => {
-  event.custom({
-    type: "eternal_starlight:alloy",
-    burn_time: 400,
-    ingredients: [
-      {
-        item: "irons_spellbooks:arcane_ingot",
-      },
-      {
-        item: "eternal_starlight:deepsilver_ingot",
-      },
-      {
-        item: "eternal_starlight:deepsilver_ingot",
-      },
-      {
-        item: "unify:lead_ingot",
-      },
-      {
-        item: "hazennstuff:starkissed_zenalite",
-      },
+  //Ars Nouveau
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "iceandfire:fire_dragon_blood",
+      "malum:warp_flux",
+      "eternal_starlight:starlit_diamond",
     ],
-    results: [
-      {
-        amount: 2,
-        item: {
-          count: 1,
-          id: "hazennstuff:zenalite_ingot",
-        },
-      },
+    "eternal_starlight:starfire",
+    "iceandfire:summoning_crystal_fire",
+    1000,
+  );
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "iceandfire:ice_dragon_blood",
+      "malum:warp_flux",
+      "eternal_starlight:starlit_diamond",
     ],
-  });
+    "iceandfire:sapphire_gem",
+    "iceandfire:summoning_crystal_ice",
+    1000,
+  );
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "iceandfire:lightning_dragon_blood",
+      "malum:warp_flux",
+      "eternal_starlight:starlit_diamond",
+    ],
+    "minecraft:amethyst_shard",
+    "iceandfire:summoning_crystal_lightning",
+    1000,
+  );
+
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "malum:cthonic_gold",
+      "hazennstuff:deus_essence",
+      "malum:cthonic_gold",
+      "hazennstuff:deus_essence",
+      "malum:cthonic_gold",
+      "hazennstuff:deus_essence",
+      "malum:cthonic_gold",
+      "hazennstuff:deus_essence",
+    ],
+    "ars_nouveau:drygmy_shard",
+    "ars_nouveau:drygmy_charm",
+    20000,
+  );
+
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "create:golden_sheet",
+      "create:golden_sheet",
+      "ars_nouveau:source_gem_block",
+      "createaddition:iron_rod",
+      "create:golden_sheet",
+      "createaddition:iron_rod",
+      "ars_nouveau:source_gem_block",
+      "create:golden_sheet",
+    ],
+    "create:potato_cannon",
+    "ars_nouveau:splash_flask_cannon",
+    2000,
+  );
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "malum:warp_flux",
+      "royalvariations:royal_ender_pearl",
+      "malum:warp_flux",
+      "royalvariations:royal_ender_pearl",
+      "malum:warp_flux",
+      "royalvariations:royal_ender_pearl",
+      "malum:warp_flux",
+      "royalvariations:royal_ender_pearl",
+    ],
+    "ars_nouveau:warp_scroll",
+    "ars_nouveau:stable_warp_scroll",
+    10000,
+  );
+  //Starlight
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "ars_elemental:mark_of_mastery",
+      "ars_elemental:mark_of_mastery",
+      "eternal_starlight:wind_crystal",
+      "eternal_starlight:terra_crystal",
+      "irons_spellbooks:divine_soulshard",
+      "eternal_starlight:blaze_crystal",
+      "eternal_starlight:water_crystal",
+      "ars_elemental:mark_of_mastery",
+    ],
+    "ars_nouveau:apprentice_spell_book",
+    "ars_nouveau:archmage_spell_book",
+    20000,
+  );
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    ["hazennstuff:nether_star_fragment", "hazennstuff:nether_star_fragment"],
+    "hazennstuff:raw_zenalite",
+    "hazennstuff:starkissed_zenalite",
+    20000,
+  );
+  //AE2
+  //Source Cell Housing
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "malum:hallowed_gold_ingot",
+      "malum:hallowed_gold_ingot",
+      "malum:hallowed_gold_ingot",
+      "malum:hallowed_gold_ingot",
+      "ars_nouveau:source_gem",
+      "ars_nouveau:source_gem",
+      "ars_nouveau:manipulation_essence",
+      "ars_nouveau:manipulation_essence",
+    ],
+    "ae2:item_cell_housing",
+    "arseng:source_cell_housing",
+    10000,
+  );
   event.recipes.ars_nouveau.enchanting_apparatus(
     [
       "eternal_starlight:red_starlight_crystal_shard",
