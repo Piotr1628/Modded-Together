@@ -35,6 +35,7 @@ ServerEvents.recipes((event) => {
       //Ars Nouveau
       //Oritech
       'oritech:processing_unit',
+      'oritech:adamant_ingot',
       //Essences
       'ars_elemental:anima_essence',
       'ars_nouveau:water_essence',
@@ -274,6 +275,7 @@ ServerEvents.recipes((event) => {
     id: 'sophisticatedstorage:controller',
     //Oritech
     id: 'oritech:assembler/processingunit',
+    id: 'oritech:foundry/alloy/adamant',
   });
   //Irons Spells
   (event.remove({

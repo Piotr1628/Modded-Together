@@ -10,4 +10,6 @@ ServerEvents.recipes((event) => {
   event.recipes.create.mixing('extendedae:entro_seed', ['3xminecraft:redstone', '3xoritech:platinum_dust', '3xae2:ender_dust', 'ae2:sky_dust']);
   //Irons Spells
   event.recipes.create.mixing(Fluid.of('irons_spellbooks:ice_venom', 250), [Fluid.of('eternal_starlight:ether', 1000), 'minecraft:spider_eye']).heated();
+  //Oritech
+  event.recipes.create.mixing('oritech:adamant_ingot', ['eternal_starlight:deepsilver_ingot', 'ae2:certus_quartz_dust']).superheated();
 });
