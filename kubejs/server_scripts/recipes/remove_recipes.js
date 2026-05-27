@@ -2,6 +2,7 @@ ServerEvents.recipes((event) => {
   event.remove({
     //AE2
     output: [
+      'ae2:printed_silicon',
       'ae2:logic_processor',
       'ae2:calculation_processor',
       'ae2:engineering_processor',
@@ -31,6 +32,8 @@ ServerEvents.recipes((event) => {
       'extendedae:crystal_assembler',
       'extendedae:assembler_matrix_frame',
       //Ars Nouveau
+      //Oritech
+      'oritech:processing_unit',
       //Essences
       'ars_elemental:anima_essence',
       'ars_nouveau:water_essence',
@@ -254,29 +257,22 @@ ServerEvents.recipes((event) => {
       'minecraft:copper_trapdoor',
       //Transmog
       'transmog:transmogrification_table',
-      //Regions Unexplored
-      'regions_unexplored:light_gray_painted_planks',
-      'regions_unexplored:cyan_painted_planks',
-      'regions_unexplored:purple_painted_planks',
-      'regions_unexplored:blue_painted_planks',
-      'regions_unexplored:brown_painted_planks',
-      'regions_unexplored:green_painted_planks',
-      'regions_unexplored:red_painted_planks',
-      'regions_unexplored:black_painted_planks',
     ],
   });
   event.remove({
-    id: [
+    id:
       //Create
       'createaddition:crushing/tuff_recycling',
-      'create:item_application/railway_casing',
-      //Ice and fire
-      'iceandfire:dragonforge/dragonsteel_lightning_ingot',
-      'iceandfire:dragonforge/dragonsteel_fire_ingot',
-      'iceandfire:dragonforge/dragonsteel_ice_ingot',
-      //Sophisticated Storage
-      'sophisticatedstorage:controller',
-    ],
+    id: 'create:item_application/railway_casing',
+
+    //Ice and fire
+    id: 'iceandfire:dragonforge/dragonsteel_lightning_ingot',
+    id: 'iceandfire:dragonforge/dragonsteel_fire_ingot',
+    id: 'iceandfire:dragonforge/dragonsteel_ice_ingot',
+    //Sophisticated Storage
+    id: 'sophisticatedstorage:controller',
+    //Oritech
+    id: 'oritech:assembler/processingunit',
   });
   //Irons Spells
   (event.remove({
