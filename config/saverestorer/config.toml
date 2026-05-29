@@ -1,0 +1,10 @@
+#SaveRestorer 核心配置
+[general]
+	#清理前是否自动备份世界存档。
+	enable_backup = true
+	#替换无效方块的 ID，常用 'minecraft:stone' 或 'minecraft:air'。
+	replacement_block = "minecraft:stone"
+	#过滤模式：none(不过滤) / whitelist(仅处理名单内) / blacklist(处理除名单外)
+	filter_mode = "none"
+	#过滤名单，支持 ModID 或完整命名空间。
+	filter_list = []

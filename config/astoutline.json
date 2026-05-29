@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "radius": 4.0094337,
+  "intensity": 1.0,
+  "hsvH": 0.861,
+  "hsvS": 0.6,
+  "hsvV": 1.0,
+  "chameleonMode": true,
+  "customItemIds": []
+}

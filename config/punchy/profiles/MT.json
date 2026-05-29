@@ -1,0 +1,286 @@
+{
+  "itemSpecific": {
+    "crystal_chronicles:staff": {
+      "kind": "SWORD",
+      "armKind": "SWORD",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": 2.8015594,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": -2.8015594,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "ars_nouveau:spell_crossbow": {
+      "kind": "CROSSBOW",
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.049999997,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "ars_nouveau:dominion_wand": {
+      "kind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.23000002,
+          "offY": 0.0,
+          "offZ": 0.049999997,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 60.0,
+          "pivotX": 0.03,
+          "pivotY": 0.03,
+          "pivotZ": -0.06999998
+        }
+      }
+    },
+    "crystal_chronicles:lightning_bident": {
+      "kind": "SWORD",
+      "armKind": "SWORD",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.034090996,
+          "offY": 0.0,
+          "offZ": -0.022727251,
+          "rotX": 3.579544,
+          "rotY": -2.045456,
+          "rotZ": 2.5568085,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": -2.8015594,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "ars_nouveau:novice_spell_book": {
+      "kind": "INGREDIENT",
+      "armKind": "MINECART",
+      "transforms": {
+        "right": {
+          "scale": 0.8000002,
+          "offX": -0.03,
+          "offY": -0.059999995,
+          "offZ": 0.049999997,
+          "rotX": -49.0,
+          "rotY": -1.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.04,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.04,
+          "rotX": -40.0,
+          "rotY": -1.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "left": {
+          "scale": 0.7000003,
+          "offX": -0.0,
+          "offY": 0.059999995,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "ars_nouveau:enchanters_mirror": {
+      "kind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.049999997,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "crystal_chronicles:paladin_sword": {
+      "kind": "SWORD",
+      "armKind": "SWORD",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": -0.051136374,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": -2.045456,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": -2.8015594,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "simplyswords:iron_warglaive": {
+      "transforms": {
+        "right": {
+          "scale": 1.0999999,
+          "offX": -0.058547378,
+          "offY": -0.07369435,
+          "offZ": -0.06612086,
+          "rotX": -14.130249,
+          "rotY": -0.49797058,
+          "rotZ": 105.83371,
+          "pivotX": 0.035100937,
+          "pivotY": 0.0010201931,
+          "pivotZ": -0.13530242
+        }
+      }
+    }
+  }
+}

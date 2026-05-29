@@ -1,0 +1,33 @@
+[mana]
+	#Bonus added to the player's MANA_REGEN attribute on every login. Stacks as a flat addition. Set to -1 to disable. Iron's vanilla default is around 1.0, so a value of 4.0 here gives an effective regen rate of 5.0.
+	# Default: -1.0
+	# Range: -1.0 ~ 100.0
+	baseManaRegenPercent = -1.0
+	#Bonus added to the player's MAX_MANA attribute on every login. Stacks with the value as a flat addition. Set to -1 to disable. Iron's vanilla default is 100, so a value of 400 here gives players 500 max mana total.
+	# Default: -1
+	# Range: -1 ~ 100000
+	startingMaxMana = -1
+	#Fully disable passive mana regen. Implemented as a tick drainback because Iron's regen path does not fire a cancellable event.
+	disableManaRegen = false
+
+[cooldown]
+	#Additive bonus applied to the COOLDOWN_REDUCTION attribute for every player. Around 0.5 cuts cooldowns roughly in half. Negative values lengthen them. Stacks with gear and effects.
+	# Default: 0.0
+	# Range: -10.0 ~ 10.0
+	cooldownReductionBonus = 0.0
+	#Additive bonus applied to the CAST_TIME_REDUCTION attribute for every player. Around 0.5 makes spells cast roughly twice as fast. Negative values lengthen cast times. Stacks with gear and effects.
+	# Default: 0.0
+	# Range: -10.0 ~ 10.0
+	castTimeReductionBonus = 0.0
+
+[restrictions]
+	#Dimensions where spell casting is fully blocked. List of dimension IDs like "minecraft:nether" or "twilightforest:twilight_forest". Empty list disables this feature. Affects players only, not mob casters.
+	spellCastingDisabledDimensions = []
+	#Highest spell rarity players are allowed to cast. Spells with a higher minimum rarity are blocked. Valid values: common, uncommon, rare, epic, legendary, or empty to disable. For example, 'uncommon' allows common and uncommon spells but blocks rare, epic, and legendary. 'legendary' allows everything. Mob casters are not affected.
+	maxSpellRarity = ""
+	#Spell IDs that cannot be inscribed at the inscription table. List of spell IDs like "irons_spellbooks:fireball". Empty list disables this feature. Players will see their inscription cancelled silently.
+	inscriptionBlacklist = []
+
+[blackhole]
+	#Per-entity-type resistance to black hole pull. Format: "entity_id:strength" where strength is 0.0 (no effect) to 1.0 (fully immune). Iron's hardcodes a 0.3 minimum pull regardless of KNOCKBACK_RESISTANCE attribute, so this exists to push past that floor for specific bosses. Affects black hole only, not other movement spells or vanilla knockback.
+	blackholeImmunity = []

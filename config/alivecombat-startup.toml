@@ -1,0 +1,10 @@
+autoAttackEnabled = true
+spamAttackEnabled = true
+heldAttackEnabled = true
+passCollisionlessEnabled = true
+passCollisionlessExtraEnabled = true
+passDeadEnabled = true
+passAllyEnabled = true
+attackParticleEnabled = true
+smoothIndicatorEnabled = true
+chargeIndicatorEnabled = true

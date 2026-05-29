@@ -1,0 +1,9 @@
+#Allowed Values: CLICK, PRESS
+autoAttackMode = "CLICK"
+# Default: 5.0
+# Range: 0.0 ~ 1.7976931348623157E308
+autoAttackDuration = 5.0
+passCollisionlessHoldingTool = true
+passCollisionlessInteractionBlocked = true
+passAllyHoldingTool = true
+passAllyInteractionBlocked = true

@@ -1,0 +1,11 @@
+#Chance that an item remains in the loot (0.0 = never, 1.0 = always)
+# Default: 0.7
+# Range: 0.0 ~ 1.0
+lootChance = 0.7
+#Loot tables that should NOT be affected (namespace:path)
+chestBlacklist = ["namespace:chests/chest_id"]
+#List of full mod IDs / namespaces to skip.
+#If a loot table comes from one of these mod IDs, ReducedLoot will not reduce it.
+#Example with multiple mods:
+#modIdBlacklist = ["mod1", "mod2", "mod3"]
+modIdBlacklist = ["reducedloot"]

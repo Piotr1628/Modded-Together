@@ -1,0 +1,78 @@
+[features]
+	# affix display
+	# ============================================================
+	# Controls how many affixes show on a tooltip.
+	# all = show every affix
+	# top_n = show first N, rest visible with Alt held
+	# alt_only = hide every affix unless Alt is held
+	affix_display_mode = "top_n"
+	# Number of affixes shown when mode is top_n.
+	# Default: 3
+	# Range: 0 ~ 99
+	affix_visible_count = 3
+	# Sort order: default, rarity, alphabetical, type.
+	affix_sort_order = "default"
+	# Translation key prefixes of affixes to hide.
+	hidden_affix_ids = []
+	# gem display (raw gems)
+	# ============================================================
+	# Controls how raw gem tooltips display.
+	# full = original Apotheosis layout
+	# compact = strip headers, keep per-bullet categories and bonuses
+	# ultra = one line for categories, one line for bonuses
+	# hidden = remove all gem info
+	gem_tooltip_mode = "compact"
+	# Case-insensitive list of gem categories to hide from Fits In tooltips.
+	# Works in all gem_tooltip_mode values including full.
+	hidden_gem_categories = []
+	# sockets
+	# ============================================================
+	# Merges empty sockets into one summary line.
+	# All-empty: single line replaces the empty rows.
+	# Mixed: filled gems still render, empty count appended below.
+	merge_empty_sockets = true
+	# Hides the APOTH_SOCKET_MARKER literal text.
+	# Only enable if the marker is leaking through visibly.
+	# Can hide the socket UI on socketed items if enabled.
+	hide_apoth_marker = false
+	# Affix type prefixes (While held, On hit, On block, Passive).
+	# show = always visible
+	# alt = hidden unless Alt is held
+	# delete = always hidden, Alt has no effect
+	affix_prefixes_mode = "show"
+	# affix tooltip lines
+	# ============================================================
+	# The summary block (Cold/Fire/HP%/Spell Resistance lines).
+	# show = always visible
+	# alt = hidden unless Alt is held
+	# delete = always hidden, Alt has no effect
+	summarization_mode = "alt"
+	# The "ignores X% of durability damage" line.
+	# show = always visible
+	# alt = hidden unless Alt is held
+	# delete = always hidden, Alt has no effect
+	durability_bonus_mode = "alt"
+	# Potion-style affix descriptions.
+	# show = always visible
+	# alt = hidden unless Alt is held
+	# delete = always hidden, Alt has no effect
+	potion_descriptions_mode = "show"
+	# The [⌛ MM:SS] cooldown markers and [Stacking] tags on affix lines.
+	# The affix text itself is never touched, only the annotations.
+	# show = always visible
+	# alt = hidden unless Alt is held
+	# delete = always hidden, Alt has no effect
+	affix_extras_mode = "alt"
+
+[rarity_colors]
+	# Enables custom rarity color overrides.
+	# When false, vanilla Apotheosis colors are used.
+	rarity_colors_enabled = false
+	# Hex format: 0xRRGGBB
+	common = "0xAAAAAA"
+	uncommon = "0x55FF55"
+	rare = "0x55FFFF"
+	epic = "0xFF55FF"
+	mythic = "0xFFAA00"
+	# Color used for unknown rarities. In Apotheosis 8.x ancient is no longer a built-in rarity, but this color still applies to Apotheotic Additions esoteric and any other unrecognized rarity.
+	ancient = "0xFF5555"
