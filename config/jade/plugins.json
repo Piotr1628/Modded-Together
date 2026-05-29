@@ -52,6 +52,14 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "tempad": {
+    "chronon": true,
+    "rudimentary": true,
+    "anchor": true,
+    "metronome": true,
+    "workstation": true,
+    "timedoor": true
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -76,6 +84,9 @@
     "decorative_graves": true,
     "player_graves": true
   },
+  "oritech": {
+    "machine_core_controller": true
+  },
   "ftbquests": {
     "barrier": true
   },
@@ -92,6 +103,10 @@
   },
   "apotheosis": {
     "adventure": true
+  },
+  "extendedae": {
+    "jade_chamber": true,
+    "jade_wireless": true
   },
   "iceandfire": {
     "dragon_egg_entity": true,

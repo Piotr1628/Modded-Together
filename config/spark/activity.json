@@ -5,6 +5,318 @@
       "name": "Piotr1628",
       "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
     },
+    "time": 1780013105406,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/v2sS4VrxHJ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779996055024,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/kRWfRZTYlP"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779996046377,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/FQLRRcA7xB"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779744040866,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/19gt7nlURL"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779743510898,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/lf6t6RVmUh"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779732976925,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3r9zej1DO0"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779732939083,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3pnpNTwkP2"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779725219527,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "/Applications/Minecraft/Instances/Modded Together 1.3/config/spark/heap-2026-05-25_18.06.55.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779725168581,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/OMZ4g6OcKd"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779725066232,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ecEKrjc2WW"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779725056516,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jC6CdAdKGX"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779724780743,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/UVJ2BLyOxH"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779724761923,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/tkPuPu6p7l"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779724710769,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/vhMiz8C8fE"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779724617886,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/s7Rj7F6YnK"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779724564969,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/zIzeQqnWq3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779724527021,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/d4euQuUqtj"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779724480399,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/gRpKbDYoDk"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779724436957,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/1G6eHEAtVe"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779724344614,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/J6oMioK5xR"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779724298640,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pazRnOpvKX"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779724228075,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/HBrpCR9COk"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779724191397,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/WjzHxEijoC"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1779724151855,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/CAPmshwzkI"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
     "time": 1779184252696,
     "type": "Profiler",
     "data": {

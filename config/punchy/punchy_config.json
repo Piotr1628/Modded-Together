@@ -34,8 +34,14 @@
   "enableBlurGlowAtDark": false,
   "firstPersonModelHideEnabled": true,
   "firstPersonModelHidePitch": 60.0,
-  "itemBlacklist": [],
-  "blacklistApplyDualHanded": {},
+  "itemBlacklist": [
+    "paraglider:deku_leaf",
+    "scguns:forlorn_hope"
+  ],
+  "blacklistApplyDualHanded": {
+    "paraglider:deku_leaf": true,
+    "scguns:forlorn_hope": false
+  },
   "animationPackSelections": {},
   "animationPackTypeSelections": {},
   "mixSpecificForceOverride": {}

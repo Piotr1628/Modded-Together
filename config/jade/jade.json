@@ -1,7 +1,7 @@
 {
   "general": {
     "itemModNameTooltip": false,
-    "bossBarOverlapMode": "NO_OPERATION",
+    "bossBarOverlapMode": "HIDE_TOOLTIP",
     "builtinCamouflage": true,
     "hideFromTabList": true,
     "hideFromGUIs": true,
