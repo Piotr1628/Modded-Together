@@ -1,0 +1,110 @@
+--------------------------------------------------
+New Content
+--------------------------------------------------
+
+- Added Wireless Crafting Terminal.
+
+- Added Refined Types integration.
+  Allows wireless importing/exporting of:
+  - Forge Energy (FE)
+  - Ars Nouveau Source
+
+- Added Create Filters Anywhere support.
+  Create filters now function with:
+  - Sophisticated Storage
+  - Sophisticated Backpacks
+  - Refined Storage
+
+- Added new Warden variants.
+
+- Added Drygmy containment adjustments.
+  Containment Ritual power is intentionally reduced and can now only trap weaker entities.
+
+  Full blacklist:
+  moddedtogether/kubejs/server_scripts/jar_blacklist.js
+
+- Added new crafting sounds.
+
+--------------------------------------------------
+Changes & Adjustments
+--------------------------------------------------
+
+- Pure Darkness from Forlorn Hollows Cave now replaces Nightmare Fuel in Shadow Spell recipes.
+
+- Changed Interdimensional Wireless Transmitter recipe.
+
+- Reworked Zenalite Ingot recipe.
+
+- Roll (dash) can now be used mid-air.
+
+- Applied various fixes from updated mods.
+
+--------------------------------------------------
+Bug Fixes
+--------------------------------------------------
+
+- Fixed Create Contraption chest duplication exploit.
+  Thanks to Tibbles for reporting.
+
+- Fixed Create Contraptions becoming trapped in bubbles.
+
+- Fixed Magic Workbench duplication exploit.
+
+- Fixed Underwater Chest sound spam.
+
+- Fixed Create Shaders compatibility and improved shader performance.
+
+- Fixed crashes caused by certain particle effects.
+  If crashes still occur, report them in the issues channel.
+
+- Fixed Hogskin recipe.
+
+- Fixed Nature Compass being excessively rare in Ribbit Sorcerer houses.
+
+--------------------------------------------------
+Balance Changes
+--------------------------------------------------
+
+- Added selected Alex's Caves blocks to the Spectral Hammer whitelist.
+
+- Disabled Wall Glyph due to balance and stability issues.
+
+--------------------------------------------------
+Removals
+--------------------------------------------------
+
+- Removed Ghost Step Perk from Affinity.
+  It conflicted with Tombstone mechanics.
+
+- Disabled Spirit Orbs and Goddess Statues in caves.
+
+- Removed Spark.
+  It is now considered an optional client/server addition.
+
+- Removed Cosmetic Armors (including Miku armors).
+  The upstream patches removing them also included critical fixes required for stability.
+
+- Removed Ghost Sword.
+
+- Removed Phantasmal Ingot.
+
+- Removed Blur again.
+
+--------------------------------------------------
+Performance
+--------------------------------------------------
+
+- Added Gnetum.
+  UI framerate is now capped at 30 FPS.
+
+- Create Shader fixes should also improve overall performance.
+
+
+Hosting Partner:
+https://wabbanode.com/partner/moddedtogether
+
+Discount Code:
+PITERSONIX
+
+Patreon:
+https://www.patreon.com/c/pitersonix/membership
