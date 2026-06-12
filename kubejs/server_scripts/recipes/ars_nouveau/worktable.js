@@ -1,116 +1,61 @@
 ServerEvents.recipes((event) => {
-  const id_prefix = 'mt:ars_nouveau/worktable/';
+  event.recipes.eidolon_repraised.worktable('ars_nouveau:ring_of_potential', ['   ', 'IGI', ' I '], ['SSSS'], {
+    S: 'create:iron_sheet',
+    G: 'ars_nouveau:source_gem',
+    I: 'minecraft:iron_nugget',
+    A: 'irons_spellbooks:arcane_essence',
+  });
 
-  const recipes = [
-    {
-      result: { id: 'ars_nouveau:ring_of_potential', count: 1 },
-      pattern: ['   ', 'IGI', ' I '],
-      reagents: ['SSSS'],
-      key: {
-        S: { item: 'create:iron_sheet' },
-        G: { item: 'ars_nouveau:source_gem' },
-        I: { item: 'minecraft:iron_nugget' },
-        A: { item: 'irons_spellbooks:arcane_essence' },
-      },
-      id: `${id_prefix}ring_of_potential`,
-    },
-    {
-      result: { id: 'ars_nouveau:imbuement_chamber', count: 1 },
-      pattern: [' P ', 'PSP', ' P '],
-      reagents: ['HHHH'],
-      key: {
-        S: { item: 'unify:gold_sheet' },
-        P: { item: 'ars_nouveau:archwood_planks' },
-        H: { item: 'malum:hallowed_gold_ingot' },
-      },
-      id: `${id_prefix}imbuement_chamber`,
-    },
-    {
-      result: { id: 'ars_nouveau:arcane_pedestal', count: 1 },
-      pattern: ['BGB', 'IBI', 'IBI'],
-      reagents: ['SSSS'],
-      key: {
-        S: { item: 'create:golden_sheet' },
-        G: { item: 'ars_nouveau:source_gem' },
-        I: { item: 'malum:hallowed_gold_ingot' },
-        B: { item: 'ars_nouveau:sourcestone' },
-      },
-      id: `${id_prefix}arcane_pedestal`,
-    },
-    {
-      result: { id: 'ars_nouveau:arcane_core', count: 1 },
-      pattern: ['BGB', 'B B', 'BGB'],
-      reagents: ['IIII'],
-      key: {
-        G: { item: 'ars_nouveau:source_gem' },
-        I: { item: 'malum:hallowed_gold_ingot' },
-        B: { item: 'ars_nouveau:sourcestone' },
-      },
-      id: `${id_prefix}arcane_core`,
-    },
-    {
-      result: { id: 'ars_nouveau:enchanting_apparatus', count: 1 },
-      pattern: [' H ', 'HBH', ' H '],
-      reagents: ['SSSS'],
-      key: {
-        S: { item: 'create:golden_sheet' },
-        B: { item: 'ars_nouveau:source_gem_block' },
-        H: { item: 'malum:hallowed_gold_ingot' },
-      },
-      id: `${id_prefix}enchanting_apparatus`,
-    },
-    {
-      result: { id: 'ars_nouveau:warp_scroll', count: 8 },
-      pattern: ['PPP', 'PEP', 'PPP'],
-      reagents: ['AAAA'],
-      key: {
-        P: { item: 'minecraft:map' },
-        E: { item: 'royalvariations:royal_ender_pearl' },
-        A: { item: 'irons_spellbooks:arcane_essence' },
-      },
-      id: `${id_prefix}warp_scroll`,
-    },
-    {
-      result: { id: 'ars_nouveau:dull_trinket', count: 1 },
-      pattern: [' L ', 'LBL', 'IGI'],
-      reagents: ['AAAA'],
-      key: {
-        L: { item: 'minecraft:leather' },
-        B: { item: 'create:brass_ingot' },
-        I: { item: 'iceandfire:silver_nugget' },
-        G: { item: 'ars_nouveau:source_gem' },
-        A: { item: 'irons_spellbooks:arcane_essence' },
-      },
-      id: `${id_prefix}dull_trinket`,
-    },
-    {
-      result: { id: 'ars_nouveau:novice_spell_book', count: 1 },
-      pattern: ['   ', 'SBS', '   '],
-      reagents: ['AAAA'],
-      key: {
-        S: { item: 'unify:gold_sheet' },
-        B: { item: 'minecraft:book' },
-        A: { item: 'irons_spellbooks:arcane_essence' },
-      },
-      id: `${id_prefix}novice_spell_book`,
-    },
-    {
-      result: { id: 'ars_nouveau:source_jar', count: 1 },
-      pattern: ['SNS', 'IJI', 'III'],
-      reagents: ['AAAA'],
-      key: {
-        S: { item: 'ars_nouveau:archwood_slab' },
-        N: { item: 'malum:hallowed_gold_nugget' },
-        I: { item: 'malum:hallowed_gold_ingot' },
-        J: { item: 'supplementaries:jar' },
-        A: { item: 'irons_spellbooks:arcane_essence' },
-      },
-      id: `${id_prefix}source_jar`,
-    },
-  ];
+  event.recipes.eidolon_repraised.worktable('ars_nouveau:imbuement_chamber', [' P ', 'PSP', ' P '], ['HHHH'], {
+    S: 'unify:gold_sheet',
+    P: 'ars_nouveau:archwood_planks',
+    H: 'malum:hallowed_gold_ingot',
+  });
 
-  recipes.forEach((recipe) => {
-    recipe.type = 'eidolon_repraised:worktable';
-    event.custom(recipe).id(recipe.id);
+  event.recipes.eidolon_repraised.worktable('ars_nouveau:arcane_pedestal', ['BGB', 'IBI', 'IBI'], ['SSSS'], {
+    S: 'create:golden_sheet',
+    G: 'ars_nouveau:source_gem',
+    I: 'malum:hallowed_gold_ingot',
+    B: 'ars_nouveau:sourcestone',
+  });
+
+  event.recipes.eidolon_repraised.worktable('ars_nouveau:arcane_core', ['BGB', 'B B', 'BGB'], ['IIII'], {
+    G: 'ars_nouveau:source_gem',
+    I: 'malum:hallowed_gold_ingot',
+    B: 'ars_nouveau:sourcestone',
+  });
+
+  event.recipes.eidolon_repraised.worktable('ars_nouveau:enchanting_apparatus', [' H ', 'HBH', ' H '], ['SSSS'], {
+    S: 'create:golden_sheet',
+    B: 'ars_nouveau:source_gem_block',
+    H: 'malum:hallowed_gold_ingot',
+  });
+
+  event.recipes.eidolon_repraised.worktable('8x ars_nouveau:warp_scroll', ['PPP', 'PEP', 'PPP'], ['AAAA'], {
+    P: 'minecraft:map',
+    E: 'royalvariations:royal_ender_pearl',
+    A: 'irons_spellbooks:arcane_essence',
+  });
+
+  event.recipes.eidolon_repraised.worktable('ars_nouveau:dull_trinket', [' L ', 'LBL', 'IGI'], ['AAAA'], {
+    L: 'minecraft:leather',
+    B: 'create:brass_ingot',
+    I: 'iceandfire:silver_nugget',
+    G: 'ars_nouveau:source_gem',
+    A: 'irons_spellbooks:arcane_essence',
+  });
+
+  event.recipes.eidolon_repraised.worktable('ars_nouveau:novice_spell_book', ['   ', 'SBS', '   '], ['AAAA'], {
+    S: 'unify:gold_sheet',
+    B: 'minecraft:book',
+    A: 'irons_spellbooks:arcane_essence',
+  });
+
+  event.recipes.eidolon_repraised.worktable('ars_nouveau:source_jar', ['SNS', 'IJI', 'III'], ['AAAA'], {
+    S: 'ars_nouveau:archwood_slab',
+    N: 'malum:hallowed_gold_nugget',
+    I: 'malum:hallowed_gold_ingot',
+    J: 'supplementaries:jar',
+    A: 'irons_spellbooks:arcane_essence',
   });
 });

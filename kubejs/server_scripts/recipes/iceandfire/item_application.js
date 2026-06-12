@@ -1,26 +1,16 @@
 ServerEvents.recipes((event) => {
-  const id_prefix = 'mt:iceandfire/item_application/';
+  event.recipes.create.item_application('iceandfire:dragonforge_fire_input', [
+    'iceandfire:dragonforge_fire_brick',
+    'malum:anomalous_design',
+  ]);
 
-  const recipes = [
-    {
-      results: [{ id: 'iceandfire:dragonforge_fire_input' }],
-      ingredients: [{ item: 'iceandfire:dragonforge_fire_brick' }, { item: 'malum:anomalous_design' }],
-      id: `${id_prefix}dragonforge_fire_input`,
-    },
-    {
-      results: [{ id: 'iceandfire:dragonforge_ice_input' }],
-      ingredients: [{ item: 'iceandfire:dragonforge_ice_brick' }, { item: 'malum:anomalous_design' }],
-      id: `${id_prefix}dragonforge_ice_input`,
-    },
-    {
-      results: [{ id: 'iceandfire:dragonforge_lightning_input' }],
-      ingredients: [{ item: 'iceandfire:dragonforge_lightning_brick' }, { item: 'malum:anomalous_design' }],
-      id: `${id_prefix}dragonforge_lightning_input`,
-    },
-  ];
+  event.recipes.create.item_application('iceandfire:dragonforge_ice_input', [
+    'iceandfire:dragonforge_ice_brick',
+    'malum:anomalous_design',
+  ]);
 
-  recipes.forEach((recipe) => {
-    recipe.type = 'create:item_application';
-    event.custom(recipe).id(recipe.id);
-  });
+  event.recipes.create.item_application('iceandfire:dragonforge_lightning_input', [
+    'iceandfire:dragonforge_lightning_brick',
+    'malum:anomalous_design',
+  ]);
 });

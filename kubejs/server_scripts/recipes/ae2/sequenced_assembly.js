@@ -1,174 +1,99 @@
 ServerEvents.recipes((event) => {
-  const id_prefix = 'mt:ae2/sequenced_assembly/';
+  event.recipes.create
+    .sequenced_assembly('ae2:annihilation_core', 'ae2:logic_processor', [
+      event.recipes.create.deploying('ae2:annihilation_core', [
+        'ae2:annihilation_core',
+        'eternal_starlight:aethersent_ingot',
+      ]),
+      event.recipes.create.deploying('ae2:annihilation_core', ['ae2:annihilation_core', 'minecraft:quartz']),
+      event.recipes.create.deploying('ae2:annihilation_core', ['ae2:annihilation_core', 'ae2:fluix_dust']),
+      event.recipes.create.pressing('ae2:annihilation_core', 'ae2:annihilation_core'),
+    ])
+    .transitionalItem('ae2:annihilation_core')
+    .loops(1);
 
-  const recipes = [
-    {
-      results: [{ id: 'ae2:annihilation_core' }],
-      ingredient: { item: 'ae2:logic_processor' },
-      transitional_item: { id: 'ae2:annihilation_core' },
-      loops: 1,
-      sequence: [
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:annihilation_core' }, { item: 'eternal_starlight:aethersent_ingot' }],
-          results: [{ id: 'ae2:annihilation_core' }],
-        },
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:annihilation_core' }, { item: 'minecraft:quartz' }],
-          results: [{ id: 'ae2:annihilation_core' }],
-        },
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:annihilation_core' }, { item: 'ae2:fluix_dust' }],
-          results: [{ id: 'ae2:annihilation_core' }],
-        },
-        {
-          type: 'create:pressing',
-          ingredients: [{ item: 'ae2:annihilation_core' }],
-          results: [{ id: 'ae2:annihilation_core' }],
-        },
-      ],
-      id: `${id_prefix}annihilation_core`,
-    },
-    {
-      results: [{ id: 'ae2:formation_core' }],
-      ingredient: { item: 'ae2:logic_processor' },
-      transitional_item: { id: 'ae2:formation_core' },
-      loops: 1,
-      sequence: [
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:formation_core' }, { item: 'eternal_starlight:golem_steel_ingot' }],
-          results: [{ id: 'ae2:formation_core' }],
-        },
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:formation_core' }, { item: 'ae2:certus_quartz_crystal' }],
-          results: [{ id: 'ae2:formation_core' }],
-        },
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:formation_core' }, { item: 'ae2:fluix_dust' }],
-          results: [{ id: 'ae2:formation_core' }],
-        },
-        {
-          type: 'create:pressing',
-          ingredients: [{ item: 'ae2:formation_core' }],
-          results: [{ id: 'ae2:formation_core' }],
-        },
-      ],
-      id: `${id_prefix}formation_core`,
-    },
-    {
-      results: [{ id: 'ae2:logic_processor' }],
-      ingredient: { item: 'create:precision_mechanism' },
-      transitional_item: { id: 'ae2:printed_logic_processor' },
-      loops: 1,
-      sequence: [
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:printed_logic_processor' }, { item: 'ae2:logic_processor_press' }],
-          results: [{ id: 'ae2:printed_logic_processor' }],
-          keepHeldItem: true,
-        },
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:printed_logic_processor' }, { item: 'create:golden_sheet' }],
-          results: [{ id: 'ae2:printed_logic_processor' }],
-        },
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:printed_logic_processor' }, { item: 'minecraft:redstone' }],
-          results: [{ id: 'ae2:printed_logic_processor' }],
-        },
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:printed_logic_processor' }, { item: 'ae2:printed_silicon' }],
-          results: [{ id: 'ae2:printed_logic_processor' }],
-        },
-        {
-          type: 'create:pressing',
-          ingredients: [{ item: 'ae2:printed_logic_processor' }],
-          results: [{ id: 'ae2:printed_logic_processor' }],
-        },
-      ],
-      id: `${id_prefix}logic_processor`,
-    },
-    {
-      results: [{ id: 'ae2:calculation_processor' }],
-      ingredient: { item: 'create:precision_mechanism' },
-      transitional_item: { id: 'ae2:printed_calculation_processor' },
-      loops: 1,
-      sequence: [
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:printed_calculation_processor' }, { item: 'ae2:calculation_processor_press' }],
-          results: [{ id: 'ae2:printed_calculation_processor' }],
-          keepHeldItem: true,
-        },
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:printed_calculation_processor' }, { item: 'ae2:certus_quartz_crystal' }],
-          results: [{ id: 'ae2:printed_calculation_processor' }],
-        },
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:printed_calculation_processor' }, { item: 'minecraft:redstone' }],
-          results: [{ id: 'ae2:printed_calculation_processor' }],
-        },
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:printed_calculation_processor' }, { item: 'ae2:printed_silicon' }],
-          results: [{ id: 'ae2:printed_calculation_processor' }],
-        },
-        {
-          type: 'create:pressing',
-          ingredients: [{ item: 'ae2:printed_calculation_processor' }],
-          results: [{ id: 'ae2:printed_calculation_processor' }],
-        },
-      ],
-      id: `${id_prefix}calculation_processor`,
-    },
-    {
-      results: [{ id: 'ae2:engineering_processor' }],
-      ingredient: { item: 'create:precision_mechanism' },
-      transitional_item: { id: 'ae2:printed_engineering_processor' },
-      loops: 1,
-      sequence: [
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:printed_engineering_processor' }, { item: 'ae2:engineering_processor_press' }],
-          results: [{ id: 'ae2:printed_engineering_processor' }],
-          keepHeldItem: true,
-        },
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:printed_engineering_processor' }, { item: 'minecraft:diamond' }],
-          results: [{ id: 'ae2:printed_engineering_processor' }],
-        },
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:printed_engineering_processor' }, { item: 'minecraft:redstone' }],
-          results: [{ id: 'ae2:printed_engineering_processor' }],
-        },
-        {
-          type: 'create:deploying',
-          ingredients: [{ item: 'ae2:printed_engineering_processor' }, { item: 'ae2:printed_silicon' }],
-          results: [{ id: 'ae2:printed_engineering_processor' }],
-        },
-        {
-          type: 'create:pressing',
-          ingredients: [{ item: 'ae2:printed_engineering_processor' }],
-          results: [{ id: 'ae2:printed_engineering_processor' }],
-        },
-      ],
-      id: `${id_prefix}engineering_processor`,
-    },
-  ];
+  event.recipes.create
+    .sequenced_assembly('ae2:formation_core', 'ae2:logic_processor', [
+      event.recipes.create.deploying('ae2:formation_core', [
+        'ae2:formation_core',
+        'eternal_starlight:golem_steel_ingot',
+      ]),
+      event.recipes.create.deploying('ae2:formation_core', ['ae2:formation_core', 'ae2:certus_quartz_crystal']),
+      event.recipes.create.deploying('ae2:formation_core', ['ae2:formation_core', 'ae2:fluix_dust']),
+      event.recipes.create.pressing('ae2:formation_core', 'ae2:formation_core'),
+    ])
+    .transitionalItem('ae2:formation_core')
+    .loops(1);
 
-  recipes.forEach((recipe) => {
-    recipe.type = 'create:sequenced_assembly';
-    event.custom(recipe).id(recipe.id);
-  });
+  event.recipes.create
+    .sequenced_assembly('ae2:logic_processor', 'create:precision_mechanism', [
+      event.recipes.create
+        .deploying('ae2:printed_logic_processor', ['ae2:printed_logic_processor', 'ae2:logic_processor_press'])
+        .keepHeldItem(true),
+      event.recipes.create.deploying('ae2:printed_logic_processor', [
+        'ae2:printed_logic_processor',
+        'create:golden_sheet',
+      ]),
+      event.recipes.create.deploying('ae2:printed_logic_processor', [
+        'ae2:printed_logic_processor',
+        'minecraft:redstone',
+      ]),
+      event.recipes.create.deploying('ae2:printed_logic_processor', [
+        'ae2:printed_logic_processor',
+        'ae2:printed_silicon',
+      ]),
+      event.recipes.create.pressing('ae2:printed_logic_processor', 'ae2:printed_logic_processor'),
+    ])
+    .transitionalItem('ae2:printed_logic_processor')
+    .loops(1);
+
+  event.recipes.create
+    .sequenced_assembly('ae2:calculation_processor', 'create:precision_mechanism', [
+      event.recipes.create
+        .deploying('ae2:printed_calculation_processor', [
+          'ae2:printed_calculation_processor',
+          'ae2:calculation_processor_press',
+        ])
+        .keepHeldItem(true),
+      event.recipes.create.deploying('ae2:printed_calculation_processor', [
+        'ae2:printed_calculation_processor',
+        'ae2:certus_quartz_crystal',
+      ]),
+      event.recipes.create.deploying('ae2:printed_calculation_processor', [
+        'ae2:printed_calculation_processor',
+        'minecraft:redstone',
+      ]),
+      event.recipes.create.deploying('ae2:printed_calculation_processor', [
+        'ae2:printed_calculation_processor',
+        'ae2:printed_silicon',
+      ]),
+      event.recipes.create.pressing('ae2:printed_calculation_processor', 'ae2:printed_calculation_processor'),
+    ])
+    .transitionalItem('ae2:printed_calculation_processor')
+    .loops(1);
+
+  event.recipes.create
+    .sequenced_assembly('ae2:engineering_processor', 'create:precision_mechanism', [
+      event.recipes.create
+        .deploying('ae2:printed_engineering_processor', [
+          'ae2:printed_engineering_processor',
+          'ae2:engineering_processor_press',
+        ])
+        .keepHeldItem(true),
+      event.recipes.create.deploying('ae2:printed_engineering_processor', [
+        'ae2:printed_engineering_processor',
+        'minecraft:diamond',
+      ]),
+      event.recipes.create.deploying('ae2:printed_engineering_processor', [
+        'ae2:printed_engineering_processor',
+        'minecraft:redstone',
+      ]),
+      event.recipes.create.deploying('ae2:printed_engineering_processor', [
+        'ae2:printed_engineering_processor',
+        'ae2:printed_silicon',
+      ]),
+      event.recipes.create.pressing('ae2:printed_engineering_processor', 'ae2:printed_engineering_processor'),
+    ])
+    .transitionalItem('ae2:printed_engineering_processor')
+    .loops(1);
 });

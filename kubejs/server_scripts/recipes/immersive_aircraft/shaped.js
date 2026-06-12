@@ -1,154 +1,86 @@
 ServerEvents.recipes((event) => {
-  const id_prefix = 'mt:immersive_aircraft/shaped/';
+  event.shaped('immersive_aircraft:hull', ['   ', 'ABA', 'ABA'], {
+    B: 'minecraft:iron_ingot',
+    A: 'create:andesite_casing',
+  });
 
-  const recipes = [
-    {
-      result: { id: 'immersive_aircraft:hull', count: 1 },
-      pattern: ['   ', 'ABA', 'ABA'],
-      key: {
-        B: { item: 'minecraft:iron_ingot' },
-        A: { item: 'create:andesite_casing' },
-      },
-      id: `${id_prefix}hull`,
-    },
-    {
-      result: { id: 'immersive_aircraft:sail', count: 1 },
-      pattern: ['   ', 'AAA', 'AAA'],
-      key: { A: { item: 'create:white_sail' } },
-      id: `${id_prefix}sail`,
-    },
-    {
-      result: { id: 'immersive_aircraft:propeller', count: 1 },
-      pattern: [' A ', 'ABA', ' A '],
-      key: {
-        A: { item: 'create:iron_sheet' },
-        B: { item: 'create:propeller' },
-      },
-      id: `${id_prefix}propeller`,
-    },
-    {
-      result: { id: 'immersive_aircraft:boiler', count: 1 },
-      pattern: [' A ', ' B ', ' C '],
-      key: {
-        A: { item: 'create:steam_engine' },
-        C: { item: 'create:blaze_burner' },
-        B: { item: 'create:fluid_tank' },
-      },
-      id: `${id_prefix}boiler`,
-    },
-    {
-      result: { id: 'immersive_aircraft:engine', count: 1 },
-      pattern: ['   ', 'ABA', 'CDC'],
-      key: {
-        A: { item: 'create:brass_sheet' },
-        C: { item: 'create:sturdy_sheet' },
-        B: { item: 'create:precision_mechanism' },
-        D: { item: 'immersive_aircraft:boiler' },
-      },
-      id: `${id_prefix}engine`,
-    },
-    {
-      result: { id: 'immersive_aircraft:quadrocopter', count: 1 },
-      pattern: ['ABA', ' C ', 'ADA'],
-      key: {
-        C: { tag: 'minecraft:wool' },
-        B: { item: 'create:andesite_casing' },
-        D: { item: 'immersive_aircraft:boiler' },
-        A: { item: 'create:propeller' },
-      },
-      id: `${id_prefix}quadrocopter`,
-    },
-    {
-      result: { id: 'immersive_aircraft:enhanced_propeller', count: 1 },
-      pattern: [' A ', 'ABA', ' A '],
-      key: {
-        A: { item: 'create:brass_sheet' },
-        B: { item: 'create:brass_ingot' },
-      },
-      id: `${id_prefix}enhanced_propeller`,
-    },
-    {
-      result: { id: 'immersive_aircraft:steel_boiler', count: 1 },
-      pattern: ['ABA', 'ABA', 'ABA'],
-      key: {
-        A: { item: 'create:iron_sheet' },
-        B: { item: 'create:fluid_tank' },
-      },
-      id: `${id_prefix}steel_boiler`,
-    },
-    {
-      result: { id: 'immersive_aircraft:gyroscope', count: 1 },
-      pattern: [' AA', ' B ', '   '],
-      key: {
-        A: { item: 'create:electron_tube' },
-        B: { item: 'minecraft:compass' },
-      },
-      id: `${id_prefix}gyroscope`,
-    },
-    {
-      result: { id: 'immersive_aircraft:hull_reinforcement', count: 1 },
-      pattern: ['   ', 'ABA', '   '],
-      key: {
-        B: { item: 'immersive_aircraft:hull' },
-        A: { item: 'create:iron_sheet' },
-      },
-      id: `${id_prefix}hull_reinforcement`,
-    },
-    {
-      result: { id: 'immersive_aircraft:improved_landing_gear', count: 1 },
-      pattern: ['AB ', 'C  ', '   '],
-      key: {
-        B: { item: 'minecraft:iron_ingot' },
-        A: { item: 'create:iron_sheet' },
-        C: { item: 'create:belt_connector' },
-      },
-      id: `${id_prefix}improved_landing_gear`,
-    },
-    {
-      result: { id: 'immersive_aircraft:sturdy_pipes', count: 1 },
-      pattern: ['AAB', 'BBB', 'BAA'],
-      key: {
-        B: { item: 'create:fluid_pipe' },
-        A: { item: 'create:iron_sheet' },
-      },
-      id: `${id_prefix}sturdy_pipes`,
-    },
-    {
-      result: { id: 'immersive_aircraft:nether_engine', count: 1 },
-      pattern: ['   ', 'ABA', 'CDC'],
-      key: {
-        C: { item: 'create:sturdy_sheet' },
-        A: { item: 'create:iron_sheet' },
-        D: { item: 'immersive_aircraft:boiler' },
-        B: { item: 'minecraft:lava_bucket' },
-      },
-      id: `${id_prefix}nether_engine`,
-    },
-    {
-      result: { id: 'immersive_aircraft:eco_engine', count: 1 },
-      pattern: ['   ', 'ABA', 'CDC'],
-      key: {
-        A: { item: 'create:iron_sheet' },
-        C: { item: 'create:copper_sheet' },
-        D: { item: 'immersive_aircraft:boiler' },
-        B: { item: 'minecraft:water_bucket' },
-      },
-      id: `${id_prefix}eco_engine`,
-    },
-    {
-      result: { id: 'immersive_aircraft:industrial_gears', count: 1 },
-      pattern: [' AB', 'C A', 'BC '],
-      key: {
-        C: { item: 'create:iron_sheet' },
-        A: { item: 'create:copper_sheet' },
-        B: { item: 'create:cogwheel' },
-      },
-      id: `${id_prefix}industrial_gears`,
-    },
-  ];
+  event.shaped('immersive_aircraft:sail', ['   ', 'AAA', 'AAA'], {
+    A: 'create:white_sail',
+  });
 
-  recipes.forEach((recipe) => {
-    recipe.type = 'minecraft:crafting_shaped';
-    event.custom(recipe).id(recipe.id);
+  event.shaped('immersive_aircraft:propeller', [' A ', 'ABA', ' A '], {
+    A: 'create:iron_sheet',
+    B: 'create:propeller',
+  });
+
+  event.shaped('immersive_aircraft:boiler', [' A ', ' B ', ' C '], {
+    A: 'create:steam_engine',
+    C: 'create:blaze_burner',
+    B: 'create:fluid_tank',
+  });
+
+  event.shaped('immersive_aircraft:engine', ['   ', 'ABA', 'CDC'], {
+    A: 'create:brass_sheet',
+    C: 'create:sturdy_sheet',
+    B: 'create:precision_mechanism',
+    D: 'immersive_aircraft:boiler',
+  });
+
+  event.shaped('immersive_aircraft:quadrocopter', ['ABA', ' C ', 'ADA'], {
+    C: '#minecraft:wool',
+    B: 'create:andesite_casing',
+    D: 'immersive_aircraft:boiler',
+    A: 'create:propeller',
+  });
+
+  event.shaped('immersive_aircraft:enhanced_propeller', [' A ', 'ABA', ' A '], {
+    A: 'create:brass_sheet',
+    B: 'create:brass_ingot',
+  });
+
+  event.shaped('immersive_aircraft:steel_boiler', ['ABA', 'ABA', 'ABA'], {
+    A: 'create:iron_sheet',
+    B: 'create:fluid_tank',
+  });
+
+  event.shaped('immersive_aircraft:gyroscope', [' AA', ' B ', '   '], {
+    A: 'create:electron_tube',
+    B: 'minecraft:compass',
+  });
+
+  event.shaped('immersive_aircraft:hull_reinforcement', ['   ', 'ABA', '   '], {
+    B: 'immersive_aircraft:hull',
+    A: 'create:iron_sheet',
+  });
+
+  event.shaped('immersive_aircraft:improved_landing_gear', ['AB ', 'C  ', '   '], {
+    B: 'minecraft:iron_ingot',
+    A: 'create:iron_sheet',
+    C: 'create:belt_connector',
+  });
+
+  event.shaped('immersive_aircraft:sturdy_pipes', ['AAB', 'BBB', 'BAA'], {
+    B: 'create:fluid_pipe',
+    A: 'create:iron_sheet',
+  });
+
+  event.shaped('immersive_aircraft:nether_engine', ['   ', 'ABA', 'CDC'], {
+    C: 'create:sturdy_sheet',
+    A: 'create:iron_sheet',
+    D: 'immersive_aircraft:boiler',
+    B: 'minecraft:lava_bucket',
+  });
+
+  event.shaped('immersive_aircraft:eco_engine', ['   ', 'ABA', 'CDC'], {
+    A: 'create:iron_sheet',
+    C: 'create:copper_sheet',
+    D: 'immersive_aircraft:boiler',
+    B: 'minecraft:water_bucket',
+  });
+
+  event.shaped('immersive_aircraft:industrial_gears', [' AB', 'C A', 'BC '], {
+    C: 'create:iron_sheet',
+    A: 'create:copper_sheet',
+    B: 'create:cogwheel',
   });
 });

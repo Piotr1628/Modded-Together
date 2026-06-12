@@ -1,29 +1,32 @@
 ServerEvents.recipes((event) => {
-  const id_prefix = 'mt:ae2/assembler/';
+  // engineering processor
+  event.recipes.oritech
+    .assembler()
+    .itemInputs([
+      'ae2:printed_engineering_processor',
+      'ae2:printed_silicon',
+      'minecraft:redstone',
+      'minecraft:redstone',
+    ])
+    .itemOutputs('ae2:engineering_processor')
+    .time(100);
 
-  const recipes = [
-    {
-      results: [{ id: 'ae2:engineering_processor', count: 1 }],
-      ingredients: [{ item: 'ae2:printed_engineering_processor' }, { item: 'ae2:printed_silicon' }, { item: 'minecraft:redstone' }, { item: 'minecraft:redstone' }],
-      time: 100,
-      id: `${id_prefix}engineering_processor`,
-    },
-    {
-      results: [{ id: 'ae2:logic_processor', count: 1 }],
-      ingredients: [{ item: 'ae2:printed_logic_processor' }, { item: 'ae2:printed_silicon' }, { item: 'minecraft:redstone' }, { item: 'minecraft:redstone' }],
-      time: 100,
-      id: `${id_prefix}logic_processor`,
-    },
-    {
-      results: [{ id: 'ae2:calculation_processor', count: 1 }],
-      ingredients: [{ item: 'ae2:printed_calculation_processor' }, { item: 'ae2:printed_silicon' }, { item: 'minecraft:redstone' }, { item: 'minecraft:redstone' }],
-      time: 100,
-      id: `${id_prefix}calculation_processor`,
-    },
-  ];
+  // logic processor
+  event.recipes.oritech
+    .assembler()
+    .itemInputs(['ae2:printed_logic_processor', 'ae2:printed_silicon', 'minecraft:redstone', 'minecraft:redstone'])
+    .itemOutputs('ae2:logic_processor')
+    .time(100);
 
-  recipes.forEach((recipe) => {
-    recipe.type = 'oritech:assembler';
-    event.custom(recipe).id(recipe.id);
-  });
+  // calculation processor
+  event.recipes.oritech
+    .assembler()
+    .itemInputs([
+      'ae2:printed_calculation_processor',
+      'ae2:printed_silicon',
+      'minecraft:redstone',
+      'minecraft:redstone',
+    ])
+    .itemOutputs('ae2:calculation_processor')
+    .time(100);
 });

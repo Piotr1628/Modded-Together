@@ -1,17 +1,9 @@
 ServerEvents.recipes((event) => {
-  const id_prefix = 'mt:oritech/mixing/';
+  event.recipes.create
+    .mixing('oritech:adamant_ingot', ['eternal_starlight:deepsilver_ingot', 'ae2:certus_quartz_dust'])
+    .superheated();
 
-  const recipes = [
-    {
-      results: [{ id: 'oritech:adamant_ingot', count: 1 }],
-      ingredients: [{ item: 'eternal_starlight:deepsilver_ingot' }, { item: 'ae2:certus_quartz_dust' }],
-      heat_requirement: 'superheated',
-      id: `${id_prefix}adamant_ingot`,
-    },
-  ];
-
-  recipes.forEach((recipe) => {
-    recipe.type = 'create:mixing';
-    event.custom(recipe).id(recipe.id);
-  });
+  event.recipes.create
+    .mixing('unify:electrum_ingot', ['unify:silver_ingot', 'minecraft:gold_ingot', 'minecraft:redstone'])
+    .superheated();
 });

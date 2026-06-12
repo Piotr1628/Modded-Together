@@ -1,118 +1,67 @@
 ServerEvents.recipes((event) => {
-  const id_prefix = 'mt:ars_nouveau/imbuement/';
+  event.recipes.ars_nouveau.imbuement(['#c:gems/source'], 'kubejs:ice_essence', 2000, [
+    'malum:aqueous_spirit',
+    'irons_spellbooks:icy_fang',
+    'irons_spellbooks:frozen_bone',
+  ]);
 
-  const recipes = [
-    {
-      output: { id: 'ars_nouveau:abjuration_essence', count: 1 },
-      input: { tag: 'c:gems/source' },
-      pedestalItems: [
-        { item: 'malum:sacred_spirit' },
-        { item: 'minecraft:fermented_spider_eye' },
-        { item: 'supplementaries:soap' },
-      ],
-      source: 2000,
-      id: `${id_prefix}abjuration_essence`,
-    },
+  event.recipes.ars_nouveau.imbuement(['#c:gems/source'], 'ars_nouveau:abjuration_essence', 2000, [
+    'malum:sacred_spirit',
+    'minecraft:fermented_spider_eye',
+    'supplementaries:soap',
+  ]);
 
-    {
-      output: { id: 'ars_nouveau:conjuration_essence', count: 1 },
-      input: { tag: 'c:gems/source' },
-      pedestalItems: [
-        { item: 'malum:wicked_spirit' },
-        { item: 'ars_nouveau:wilden_horn' },
-        { item: 'eidolon_repraised:offering_incense' },
-      ],
-      source: 2000,
-      id: `${id_prefix}conjuration_essence`,
-    },
+  event.recipes.ars_nouveau.imbuement(['#c:gems/source'], 'ars_nouveau:conjuration_essence', 2000, [
+    'malum:wicked_spirit',
+    'ars_nouveau:wilden_horn',
+    'eidolon_repraised:offering_incense',
+  ]);
 
-    {
-      output: { id: 'ars_nouveau:manipulation_essence', count: 1 },
-      input: { tag: 'c:gems/source' },
-      pedestalItems: [{ item: 'malum:arcane_spirit' }, { item: 'minecraft:stone_button' }, { item: 'minecraft:clock' }],
-      source: 2000,
-      id: `${id_prefix}manipulation_essence`,
-    },
+  event.recipes.ars_nouveau.imbuement(['#c:gems/source'], 'ars_nouveau:manipulation_essence', 2000, [
+    'malum:arcane_spirit',
+    'minecraft:stone_button',
+    'minecraft:clock',
+  ]);
 
-    {
-      output: { id: 'ars_nouveau:water_essence', count: 1 },
-      input: { tag: 'c:gems/source' },
-      pedestalItems: [
-        { item: 'malum:aqueous_spirit' },
-        { item: 'minecraft:water_bucket' },
-        { item: 'minecraft:seagrass' },
-      ],
-      source: 2000,
-      id: `${id_prefix}water_essence`,
-    },
+  event.recipes.ars_nouveau.imbuement(['#c:gems/source'], 'ars_nouveau:water_essence', 2000, [
+    'malum:aqueous_spirit',
+    'minecraft:water_bucket',
+    'minecraft:seagrass',
+  ]);
 
-    {
-      output: { id: 'ars_nouveau:fire_essence', count: 1 },
-      input: { tag: 'c:gems/source' },
-      pedestalItems: [
-        { item: 'malum:infernal_spirit' },
-        { item: 'mythsandlegends:fire_heart' },
-        { item: 'minecraft:gunpowder' },
-      ],
-      source: 2000,
-      id: `${id_prefix}fire_essence`,
-    },
+  event.recipes.ars_nouveau.imbuement(['#c:gems/source'], 'ars_nouveau:fire_essence', 2000, [
+    'malum:infernal_spirit',
+    'mythsandlegends:fire_heart',
+    'minecraft:gunpowder',
+  ]);
 
-    {
-      output: { id: 'ars_nouveau:earth_essence', count: 1 },
-      input: { tag: 'c:gems/source' },
-      pedestalItems: [{ item: 'malum:earthen_spirit' }, { tag: 'c:ingots/iron' }, { item: 'minecraft:dirt' }],
-      source: 2000,
-      id: `${id_prefix}earth_essence`,
-    },
+  event.recipes.ars_nouveau.imbuement(['#c:gems/source'], 'ars_nouveau:earth_essence', 2000, [
+    'malum:earthen_spirit',
+    '#c:ingots/iron',
+    'minecraft:dirt',
+  ]);
 
-    {
-      output: { id: 'ars_nouveau:air_essence', count: 1 },
-      input: { tag: 'c:gems/source' },
-      pedestalItems: [{ item: 'malum:aerial_spirit' }, { item: 'minecraft:feather' }, { tag: 'minecraft:arrows' }],
-      source: 2000,
-      id: `${id_prefix}air_essence`,
-    },
+  event.recipes.ars_nouveau.imbuement(['#c:gems/source'], 'ars_nouveau:air_essence', 2000, [
+    'malum:aerial_spirit',
+    'minecraft:feather',
+    '#minecraft:arrows',
+  ]);
 
-    {
-      output: { id: 'ars_elemental:anima_essence', count: 1 },
-      input: { tag: 'c:gems/source' },
-      pedestalItems: [
-        { item: 'malum:eldritch_spirit' },
-        { item: 'eidolon_repraised:bloodlust_incense' },
-        { item: 'irons_spellbooks:blood_vial' },
-      ],
-      source: 3000,
-      id: `${id_prefix}anima_essence`,
-    },
+  event.recipes.ars_nouveau.imbuement(['#c:gems/source'], 'ars_elemental:anima_essence', 3000, [
+    'malum:eldritch_spirit',
+    'eidolon_repraised:bloodlust_incense',
+    'irons_spellbooks:blood_vial',
+  ]);
 
-    {
-      output: { id: 'irons_spellbooks:arcane_essence', count: 1 },
-      input: { tag: 'c:gems/source' },
-      pedestalItems: [
-        { item: 'minecraft:nether_star' },
-        { item: 'malum:arcane_spirit' },
-        { item: 'malum:eldritch_spirit' },
-      ],
-      source: 3000,
-      id: `${id_prefix}arcane_essence`,
-    },
+  event.recipes.ars_nouveau.imbuement(['#c:gems/source'], 'irons_spellbooks:arcane_essence', 3000, [
+    'minecraft:nether_star',
+    'malum:arcane_spirit',
+    'malum:eldritch_spirit',
+  ]);
 
-    {
-      output: { id: 'irons_spellbooks:cinder_essence', count: 1 },
-      input: { tag: 'c:gems/source' },
-      pedestalItems: [
-        { item: 'minecraft:netherite_ingot' },
-        { item: 'malum:wicked_spirit' },
-        { item: 'malum:infernal_spirit' },
-      ],
-      source: 3000,
-      id: `${id_prefix}cinder_essence`,
-    },
-  ];
-
-  recipes.forEach((recipe) => {
-    recipe.type = 'ars_nouveau:imbuement';
-    event.custom(recipe).id(recipe.id);
-  });
+  event.recipes.ars_nouveau.imbuement(['#c:gems/source'], 'irons_spellbooks:cinder_essence', 3000, [
+    'minecraft:netherite_ingot',
+    'malum:wicked_spirit',
+    'malum:infernal_spirit',
+  ]);
 });

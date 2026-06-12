@@ -1,50 +1,40 @@
 ServerEvents.recipes((event) => {
-  const id_prefix = 'mt:iceandfire/mechanical_crafting/';
+  event.recipes.create.mechanical_crafting(
+    'iceandfire:dragonforge_lightning_core_disabled',
+    [' B B ', 'BSFSB', ' AHA ', 'BSDSB', ' B B '],
+    {
+      H: 'iceandfire:lightning_dragon_heart',
+      B: 'iceandfire:dragonforge_lightning_brick',
+      F: 'cataclysm:void_core',
+      S: 'create:sturdy_sheet',
+      A: 'malum:soul_stained_steel_plating',
+      D: 'malum:paracausal_flame',
+    },
+  );
 
-  const recipes = [
+  event.recipes.create.mechanical_crafting(
+    'iceandfire:dragonforge_ice_core_disabled',
+    [' B B ', 'BSFSB', ' AHA ', 'BSDSB', ' B B '],
     {
-      result: { id: 'iceandfire:dragonforge_lightning_core_disabled', count: 1 },
-      pattern: [' B B ', 'BSFSB', ' AHA ', 'BSDSB', ' B B '],
-      key: {
-        H: { item: 'iceandfire:lightning_dragon_heart' },
-        B: { item: 'iceandfire:dragonforge_lightning_brick' },
-        F: { item: 'cataclysm:void_core' },
-        S: { item: 'create:sturdy_sheet' },
-        A: { item: 'malum:soul_stained_steel_plating' },
-        D: { item: 'malum:paracausal_flame' },
-      },
-      id: `${id_prefix}dragonforge_lightning_core`,
+      H: 'iceandfire:ice_dragon_heart',
+      B: 'iceandfire:dragonforge_ice_brick',
+      F: 'cataclysm:void_core',
+      S: 'create:sturdy_sheet',
+      A: 'malum:soul_stained_steel_plating',
+      D: 'malum:paracausal_flame',
     },
-    {
-      result: { id: 'iceandfire:dragonforge_ice_core_disabled', count: 1 },
-      pattern: [' B B ', 'BSFSB', ' AHA ', 'BSDSB', ' B B '],
-      key: {
-        H: { item: 'iceandfire:ice_dragon_heart' },
-        B: { item: 'iceandfire:dragonforge_ice_brick' },
-        F: { item: 'cataclysm:void_core' },
-        S: { item: 'create:sturdy_sheet' },
-        A: { item: 'malum:soul_stained_steel_plating' },
-        D: { item: 'malum:paracausal_flame' },
-      },
-      id: `${id_prefix}dragonforge_ice_core`,
-    },
-    {
-      result: { id: 'iceandfire:dragonforge_fire_core_disabled', count: 1 },
-      pattern: [' B B ', 'BSFSB', ' AHA ', 'BSDSB', ' B B '],
-      key: {
-        H: { item: 'iceandfire:fire_dragon_heart' },
-        B: { item: 'iceandfire:dragonforge_fire_brick' },
-        F: { item: 'cataclysm:void_core' },
-        S: { item: 'create:sturdy_sheet' },
-        A: { item: 'malum:soul_stained_steel_plating' },
-        D: { item: 'malum:paracausal_flame' },
-      },
-      id: `${id_prefix}dragonforge_fire_core`,
-    },
-  ];
+  );
 
-  recipes.forEach((recipe) => {
-    recipe.type = 'create:mechanical_crafting';
-    event.custom(recipe).id(recipe.id);
-  });
+  event.recipes.create.mechanical_crafting(
+    'iceandfire:dragonforge_fire_core_disabled',
+    [' B B ', 'BSFSB', ' AHA ', 'BSDSB', ' B B '],
+    {
+      H: 'iceandfire:fire_dragon_heart',
+      B: 'iceandfire:dragonforge_fire_brick',
+      F: 'cataclysm:void_core',
+      S: 'create:sturdy_sheet',
+      A: 'malum:soul_stained_steel_plating',
+      D: 'malum:paracausal_flame',
+    },
+  );
 });
