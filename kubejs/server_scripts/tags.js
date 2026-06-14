@@ -11,8 +11,7 @@ ServerEvents.tags('item', (event) => {
     'reanimal:crocodile_egg',
   ]);
   event.add('nomoremagicchoices:skill_weapon', '#minecraft:enchantable/weapon');
-  event.add('c:plates/plastic', 'tfmg:plastic_sheet');
-  event.remove('c:plates/plastic', 'oritech:plastic_sheet');
+
   event.remove('minecraft:water', 'crystal_chronicles:source_blood');
 });
 

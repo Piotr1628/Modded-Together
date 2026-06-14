@@ -13,9 +13,9 @@ disableOptimizedDFU = false
 #Early window provider
 earlyWindowProvider = "SimpleCustomEarlyLoading"
 #Early window width
-earlyWindowWidth = 1920
+earlyWindowWidth = 1512
 #Early window height
-earlyWindowHeight = 1080
+earlyWindowHeight = 982
 #Early window framebuffer scale
 earlyWindowFBScale = 1
 #Early window starts maximized
