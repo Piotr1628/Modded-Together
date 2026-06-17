@@ -11,8 +11,7 @@ ServerEvents.tags('item', (event) => {
     'reanimal:crocodile_egg',
   ]);
   event.add('nomoremagicchoices:skill_weapon', '#minecraft:enchantable/weapon');
-
-  event.remove('minecraft:water', 'crystal_chronicles:source_blood');
+  event.removeAllTagsFrom('createdieselgenerators:plant_oil', 'crystal_chronicles:source_blood');
 });
 
 // BLOCKS

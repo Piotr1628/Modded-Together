@@ -13,5 +13,6 @@ RecipeViewerEvents.removeCategories((event) => {
     'oritech:fuel_generator',
     'oritech:lava_generator',
     'oritech:steam_engine',
+    'extendedae:cutter',
   ]);
 });

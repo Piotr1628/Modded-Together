@@ -5,16 +5,13 @@ ServerEvents.recipes((event) => {
       results: [{ amount: 1, item: { count: 1, id: 'oritech:steel_ingot' } }],
       ingredients: [
         { item: 'minecraft:iron_ingot' },
-        { item: 'oritech:coal_dust' },
-        { item: 'oritech:coal_dust' },
-        { item: 'oritech:coal_dust' },
-        { item: 'oritech:coal_dust' },
+        { item: 'eternal_starlight:starcore' },
         { item: 'oritech:coal_dust' },
         { item: 'oritech:coal_dust' },
         { item: 'oritech:coal_dust' },
         { item: 'oritech:coal_dust' },
       ],
-      burn_time: 400,
+      burn_time: 1200,
       id: `${id_prefix}steel_ingot`,
     },
   ];

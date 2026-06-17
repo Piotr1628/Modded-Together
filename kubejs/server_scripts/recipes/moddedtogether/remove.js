@@ -37,16 +37,34 @@ ServerEvents.recipes((event) => {
     { id: 'extendedae:assembler_matrix_frame' },
     { id: 'extendedae:entro_seed' },
 
+    // create diesel generators
+    { id: 'createdieselgenerators:bulk_fermenting/fermentable' },
+    { id: 'createdieselgenerators:basin_fermenting/fermentable' },
+    { id: 'createdieselgenerators:compacting/plant_oil' },
+
+    // create additions
+    { id: 'createaddition:liquid_burning/biofuel' },
+    { id: 'createaddition:mixing/bioethanol' },
+
     // oritech
-
     { id: 'oritech:centrifuge/fluid/plasticoilbetter' },
-    { id: 'oritech:assembler/processingunit' },
-
+    { id: 'oritech:foundry/alloy/steel' },
+    { id: 'oritech:biosteel_blockblockinv' },
+    { id: 'oritech:crafting/alloy/steel' },
     { id: 'oritech:refinery/wood' },
     { id: 'oritech:foundry/alloy/electrum' },
     { id: 'oritech:mixing/compat/create/electrum' },
     { id: 'oritech:crafting/alloy/electrum' },
     { id: 'oritech:mixing/compat/create/steel' },
+    { id: 'oritech:foundry/alloy/adamant' },
+    { id: 'oritech:foundry/alloy/biosteel' },
+    { id: 'oritech:crafting/alloy/adamant' },
+    { id: 'oritech:centrifuge/fluid/siliconwash' },
+    { id: 'oritech:centrifuge/fluid/siliconwashbad' },
+    { id: 'oritech:crafting/alloy/rawsilicon' },
+    { id: 'oritech:silicon_from_smelting_raw_silicon' },
+    { id: 'oritech:refinery/siliconwashing' },
+
     // ars_nouveau
     { id: 'ars_elemental:imbuement_anima_essence' },
     { id: 'ars_nouveau:imbuement_water_essence' },

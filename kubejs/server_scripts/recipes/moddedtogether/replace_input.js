@@ -14,8 +14,6 @@ ServerEvents.recipes((event) => {
     'eidolon_repraised:arcane_gold_block',
     'malum:block_of_hallowed_gold',
   );
-  event.replaceInput({ mod: 'oritech' }, 'oritech:plastic_sheet', 'tfmg:plastic_sheet');
-
   event.replaceInput({ mod: 'farmersdelight' }, 'minecraft:egg', '#c:eggs');
 
   event.replaceInput({ mod: 'mynethersdelight' }, 'minecraft:egg', '#c:eggs');
@@ -27,6 +25,4 @@ ServerEvents.recipes((event) => {
   event.replaceInput({}, 'create:dough', '#c:doughs/wheat');
 
   event.replaceInput({ output: 'sophisticatedstorage:storage_link' }, 'minecraft:ender_pearl', 'create:transmitter');
-
-  event.replaceInput({ mod: 'oritech' }, 'oritech:plastic_sheet', 'tfmg:plastic_sheet');
 });
