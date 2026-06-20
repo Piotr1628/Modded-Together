@@ -9,10 +9,10 @@ ServerEvents.recipes((event) => {
     { id: 'ae2:inscriber/energy_acceptor' },
     { id: 'ae2:inscriber/quartz_glass' },
     { id: 'ae2:network/cells/spatial_components' },
-    { id: 'ae2:network/cells/4k' },
-    { id: 'ae2:network/cells/16k' },
-    { id: 'ae2:network/cells/64k' },
-    { id: 'ae2:network/cells/256k' },
+    // { id: 'ae2:network/cells/4k' },
+    // { id: 'ae2:network/cells/16k' },
+    // { id: 'ae2:network/cells/64k' },
+    // { id: 'ae2:network/cells/256k' },
     { id: 'ae2:network/cells/spatial_2' },
     { id: 'ae2:network/cells/spatial_16' },
     { id: 'ae2:network/cells/spatial_128' },
@@ -22,7 +22,6 @@ ServerEvents.recipes((event) => {
     { id: 'ae2:network/cables/glass_fluix' },
     { id: 'ae2:network/parts/quartz_fiber_part' },
     { id: 'ae2:decorative/quartz_vibrant_glass' },
-    { id: 'ae2:inscriber/silicon_print' },
     { id: 'ae2:inscriber/logic_processor_print' },
 
     // aeinfinitybooster
@@ -69,6 +68,11 @@ ServerEvents.recipes((event) => {
     { id: 'oritech:centrifuge/fluid/biopolymer_bioblock' },
     { id: 'oritech:mixing/compat/create/biosteel' },
     { id: 'oritech:crafting/manualresin' },
+    { id: 'oritech:crafting/assembler' },
+    { id: 'oritech:crafting/assembleralt' },
+    { id: 'oritech:crafting/foundry' },
+    { id: 'oritech:crafting/centrifuge' },
+    { id: 'oritech:crafting/centrifugealt' },
 
     // ars_nouveau
     { id: 'ars_elemental:imbuement_anima_essence' },
