@@ -32,4 +32,17 @@ ServerEvents.recipes((event) => {
     ])
     .itemOutputs('ae2:calculation_processor')
     .time(400);
+
+  // Cores
+  event.recipes.oritech
+    .assembler()
+    .itemInputs(['ae2:logic_processor', '#c:gems/certus_quartz', 'ae2:fluix_dust', 'unify:iron_sheet'])
+    .itemOutputs('ae2:formation_core')
+    .time(400);
+
+  event.recipes.oritech
+    .assembler()
+    .itemInputs(['ae2:logic_processor', '#c:gems/quartz', 'ae2:fluix_dust', 'unify:iron_sheet'])
+    .itemOutputs('ae2:annihilation_core')
+    .time(400);
 });
