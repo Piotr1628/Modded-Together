@@ -1,33 +1,4 @@
 ServerEvents.recipes((event) => {
-  event.recipes.create.mechanical_crafting('ae2:cell_component_1k', ['DSD', 'SCS', 'DSD'], {
-    D: 'minecraft:redstone',
-    S: 'ae2:certus_quartz_crystal',
-    C: 'ae2:logic_processor',
-  });
-  event.recipes.create.mechanical_crafting('ae2:cell_component_4k', ['DED', 'SCS', 'DSD'], {
-    D: 'minecraft:redstone',
-    S: 'ae2:cell_component_1k',
-    E: 'ae2:calculation_processor',
-    C: 'ae2:quartz_glass',
-  });
-  event.recipes.create.mechanical_crafting('ae2:cell_component_16k', ['DED', 'SCS', 'DSD'], {
-    D: 'minecraft:glowstone_dust',
-    S: 'ae2:cell_component_4k',
-    E: 'ae2:calculation_processor',
-    C: 'ae2:quartz_glass',
-  });
-  event.recipes.create.mechanical_crafting('ae2:cell_component_64k', ['DED', 'SCS', 'DSD'], {
-    D: 'minecraft:glowstone_dust',
-    S: 'ae2:cell_component_16k',
-    E: 'ae2:calculation_processor',
-    C: 'ae2:quartz_glass',
-  });
-  event.recipes.create.mechanical_crafting('ae2:cell_component_256k', ['DED', 'SCS', 'DSD'], {
-    D: 'ae2:sky_dust',
-    S: 'ae2:cell_component_64k',
-    E: 'ae2:calculation_processor',
-    C: 'ae2:quartz_glass',
-  });
   event.recipes.create.mechanical_crafting(
     'ae2:spatial_cell_component_2',
     [' DFD ', 'DSLSD', 'FOCEF', 'DSLSD', ' DFD '],
