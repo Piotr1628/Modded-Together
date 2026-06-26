@@ -1,0 +1,47 @@
+ServerEvents.recipes((event) => {
+  const recipes = [
+    { id: 'hazennstuff:crafting/materials/starkissed_zenalite' },
+    { id: 'hazennstuff:crafting/materials/deus_essence_from_divine_soulshard' },
+    { id: 'hazennstuff:smelting/blasting/zenalite_from_blasting_starkissed_zenalite' },
+    { id: 'hazennstuff:crafting/armor/miner/miner_helmet' },
+    { id: 'hazennstuff:crafting/armor/miner/miner_chestplate' },
+    { id: 'hazennstuff:crafting/armor/miner/miner_leggings' },
+    { id: 'hazennstuff:crafting/armor/miner/miner_boots' },
+    { id: 'hazennstuff:crafting/armor/blazeborne/blazeborne_helmet' },
+    { id: 'hazennstuff:crafting/armor/blazeborne/blazeborne_chestplate' },
+    { id: 'hazennstuff:crafting/armor/blazeborne/blazeborne_leggings' },
+    { id: 'hazennstuff:crafting/armor/blazeborne/blazeborne_boots' },
+    { id: 'hazennstuff:crafting/armor/seraph/seraph_helmet' },
+    { id: 'hazennstuff:crafting/armor/seraph/seraph_chestplate' },
+    { id: 'hazennstuff:crafting/armor/seraph/seraph_leggings' },
+    { id: 'hazennstuff:crafting/armor/seraph/seraph_boots' },
+    { id: 'hazennstuff:crafting/armor/cryogenic_ruler/cryogenic_ruler_helmet' },
+    { id: 'hazennstuff:crafting/armor/cryogenic_ruler/cryogenic_ruler_chestplate' },
+    { id: 'hazennstuff:crafting/armor/cryogenic_ruler/cryogenic_ruler_leggings' },
+    { id: 'hazennstuff:crafting/armor/cryogenic_ruler/cryogenic_ruler_boots' },
+    { id: 'hazennstuff:crafting/armor/charged_scourge/charged_scourge_helmet' },
+    { id: 'hazennstuff:crafting/armor/charged_scourge/charged_scourge_chestplate' },
+    { id: 'hazennstuff:crafting/armor/charged_scourge/charged_scourge_leggings' },
+    { id: 'hazennstuff:crafting/armor/charged_scourge/charged_scourge_boots' },
+    { id: 'hazennstuff:crafting/armor/flesh_mass/flesh_mass_helmet' },
+    { id: 'hazennstuff:crafting/armor/flesh_mass/flesh_mass_chestplate' },
+    { id: 'hazennstuff:crafting/armor/flesh_mass/flesh_mass_leggings' },
+    { id: 'hazennstuff:crafting/armor/flesh_mass/flesh_mass_boots' },
+    { id: 'hazennstuff:crafting/armor/creaking/creaking_helmet' },
+    { id: 'hazennstuff:crafting/armor/creaking/creaking_chestplate' },
+    { id: 'hazennstuff:crafting/armor/creaking/creaking_leggings' },
+    { id: 'hazennstuff:crafting/armor/creaking/creaking_boots' },
+    { id: 'hazennstuff:crafting/armor/ender_dragon/ender_dragon_helmet' },
+    { id: 'hazennstuff:crafting/armor/ender_dragon/ender_dragon_chestplate' },
+    { id: 'hazennstuff:crafting/armor/ender_dragon/ender_dragon_leggings' },
+    { id: 'hazennstuff:crafting/armor/ender_dragon/ender_dragon_boots' },
+    { id: 'hazennstuff:crafting/armor/alchemist_supreme/alchemist_supreme_helmet' },
+    { id: 'hazennstuff:crafting/armor/alchemist_supreme/alchemist_supreme_chestplate' },
+    { id: 'hazennstuff:crafting/armor/alchemist_supreme/alchemist_supreme_leggings' },
+    { id: 'hazennstuff:crafting/armor/alchemist_supreme/alchemist_supreme_boots' },
+  ];
+
+  recipes.forEach((recipe) => {
+    event.remove(recipe);
+  });
+});
