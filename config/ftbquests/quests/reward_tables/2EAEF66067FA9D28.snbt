@@ -1,0 +1,219 @@
+{
+	icon: {
+		components: {
+			"ftbquests:loot_crate": "coins3"
+		}
+		id: "ftbquests:lootcrate"
+	}
+	id: "2EAEF66067FA9D28"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "createaero"
+	}
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{
+			count: 16
+			id: "23301A21B9072E42"
+			item: {
+				count: 1
+				id: "simulated:auger_cog"
+			}
+			weight: 0.8f
+		}
+		{
+			count: 8
+			id: "67FB7ADAD38AD0B3"
+			item: {
+				count: 1
+				id: "simulated:torsion_spring"
+			}
+			weight: 0.8f
+		}
+		{
+			count: 8
+			id: "00CB765E1FB65CF5"
+			item: {
+				count: 1
+				id: "simulated:directional_gearshift"
+			}
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "009C91A4919C6602"
+			item: {
+				count: 1
+				id: "simulated:velocity_sensor"
+			}
+			weight: 0.7f
+		}
+		{
+			count: 2
+			id: "12BCC2D4AF2FDF30"
+			item: {
+				count: 1
+				id: "simulated:throttle_lever"
+			}
+			weight: 0.4f
+		}
+		{
+			count: 16
+			id: "288536FE9137B521"
+			item: {
+				count: 1
+				id: "simulated:rope_coupling"
+			}
+		}
+		{
+			count: 16
+			id: "0558D1F9940931EB"
+			item: {
+				count: 1
+				id: "simulated:iron_handle"
+			}
+		}
+		{
+			id: "7C19C6BA631FEEB5"
+			item: {
+				count: 1
+				id: "simulated:physics_assembler"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "4A83C66523D71A89"
+			item: {
+				count: 1
+				id: "aeronautics:aviators_goggles"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "32148D2910FB83CD"
+			item: {
+				count: 1
+				id: "simulated:red_portable_engine"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "2756F01EE634ED16"
+			item: {
+				count: 1
+				id: "aeronautics:propeller_bearing"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 4
+			id: "157721B0E771A5CD"
+			item: {
+				count: 1
+				id: "aeronautics:steam_vent"
+			}
+			weight: 0.01f
+		}
+		{
+			count: 2
+			id: "5C63D327B86526AB"
+			item: {
+				count: 1
+				id: "aeronautics_utility_objects:universal_joint_rod"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "452FCB4AF8F18297"
+			item: {
+				count: 1
+				id: "create_aeronautics_toolgun:survival_structure_tool"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "23C97FD0EB3605C4"
+			item: {
+				count: 1
+				id: "create_aeronautics_toolgun:magnetic_gun"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "6CF1EE03F96900CE"
+			item: {
+				count: 1
+				id: "aeronautics:adjustable_burner"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "7A7F7F3A85A14942"
+			item: {
+				count: 1
+				id: "aeronautics:gyroscopic_propeller_bearing"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "4BD80363A92726CD"
+			item: {
+				count: 1
+				id: "aeronautics:smart_propeller"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "0551EF41157BE324"
+			item: {
+				count: 1
+				id: "aeronautics:andesite_propeller"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "48F6946C7F40B13B"
+			item: {
+				count: 1
+				id: "aeronautics:wooden_propeller"
+			}
+			weight: 0.6f
+		}
+		{
+			count: 64
+			id: "38948FF40FCA5FE8"
+			item: {
+				count: 1
+				id: "unify:copper_sheet"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 64
+			id: "02BCFD326A30AA44"
+			item: {
+				count: 1
+				id: "unify:iron_sheet"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 64
+			id: "3F0B95C38A258BAB"
+			item: {
+				count: 1
+				id: "unify:gold_sheet"
+			}
+			weight: 2.0f
+		}
+	]
+}

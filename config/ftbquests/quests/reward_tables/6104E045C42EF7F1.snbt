@@ -1,0 +1,46 @@
+{
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "6104E045C42EF7F1"
+	loot_crate: {
+		color: 16777045
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Relic Chest"
+		string_id: "relics"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ id: "0DC7D3D37A9B1291", item: { components: { "ftbquests:missing_item": "relics:amphibian_boot" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5C01C122D2587F12", item: { components: { "ftbquests:missing_item": "relics:aqua_walker" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "0BDC4C1EF85A61C1", item: { components: { "ftbquests:missing_item": "relics:bastion_ring" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "04587184FC568C5D", item: { components: { "ftbquests:missing_item": "relics:blazing_flask" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "4FEAFE267B3FBE04", item: { components: { "ftbquests:missing_item": "relics:chorus_inhibitor" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5202E25C499B2913", item: { components: { "ftbquests:missing_item": "relics:drowned_belt" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "24A464A3637666B3", item: { components: { "ftbquests:missing_item": "relics:elytra_booster" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "049EE59FB90392C5", item: { components: { "ftbquests:missing_item": "relics:elytra_booster" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "7661893668D9CF73", item: { components: { "ftbquests:missing_item": "relics:enders_hand" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5846479445A8ED85", item: { components: { "ftbquests:missing_item": "relics:hunter_belt" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "19055B34E25AD87F", item: { components: { "ftbquests:missing_item": "relics:ice_breaker" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "564A45BB273FA7EC", item: { components: { "ftbquests:missing_item": "relics:ice_skates" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "799DF5421C226BAB", item: { components: { "relics:data": { abilities: { abilities: { regeneration: { lock: { breaks: 5 }, points: 0, stats: { max_health: { initialQuality: 4 }, regeneration: { initialQuality: 2 } } }, shock: { lock: { breaks: 5 }, points: 0, stats: { bounces: { }, cooldown: { initialQuality: 7 }, damage: { initialQuality: 8 }, damage_modifier: { initialQuality: 1 }, distance: { initialQuality: 7 }, duration: { initialQuality: 7 }, knockback: { initialQuality: 2 }, paralysis: { initialQuality: 9 }, radius: { initialQuality: 4 }, rings: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:jellyfish_necklace" } }
+		{ id: "0800359D1DB09542", item: { components: { "ftbquests:missing_item": "relics:leafy_ring" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "61B09E1F6CD49787", item: { components: { "ftbquests:missing_item": "relics:magic_mirror" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "00C71E8155D7EE41", item: { components: { "ftbquests:missing_item": "relics:magma_walker" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "3B52980BAE25D189", item: { components: { "ftbquests:missing_item": "relics:midnight_robe" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "65E9CD1D3BD1FB2D", item: { components: { "ftbquests:missing_item": "relics:phantom_boot" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5D888A8F089DD85E", item: { components: { "ftbquests:missing_item": "reliquified_ars_nouveau:ring_of_the_spectral_walker" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "53D99195E1CA0FCC", item: { components: { "ftbquests:missing_item": "relics:roller_skates" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "6E19921D7AF571E0", item: { components: { "ftbquests:missing_item": "relics:shadow_glaive" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "50DE7B596587288B", item: { components: { "ftbquests:missing_item": "relics:space_dissector" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "08E60DB685D491DB", item: { components: { "ftbquests:missing_item": "relics:spore_sack" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1AC61F1AE1737B01", item: { components: { "relics:data": { abilities: { abilities: { bounce: { lock: { breaks: 5 }, points: 0, stats: { damage: { initialQuality: 6 }, damage_modifier: { }, power: { initialQuality: 7 }, radius: { initialQuality: 4 }, stun: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:springy_boot" } }
+		{ id: "20E193F0703FD11A", item: { components: { "ftbquests:missing_item": "relics:wool_mitten" }, count: 1, id: "ftbquests:missing_item" } }
+	]
+}
