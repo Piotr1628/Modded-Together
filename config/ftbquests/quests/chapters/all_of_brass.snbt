@@ -25,6 +25,7 @@
 				"1BF4159B502AE4FF"
 				"6BDC6323FF40674C"
 			]
+			entity_vis_size: 1.0f
 			id: "792F9D2ACDD4937D"
 			rewards: [
 				{
@@ -71,6 +72,7 @@
 		}
 		{
 			dependencies: ["792F9D2ACDD4937D"]
+			entity_vis_size: 1.0f
 			id: "5230D3587B041C15"
 			rewards: [
 				{
@@ -108,6 +110,7 @@
 		}
 		{
 			dependencies: ["792F9D2ACDD4937D"]
+			entity_vis_size: 1.0f
 			id: "55874DC6452BEA70"
 			rewards: [
 				{
@@ -157,6 +160,7 @@
 		}
 		{
 			dependencies: ["6BDC6323FF40674C"]
+			entity_vis_size: 1.0f
 			id: "50AC14CB91DC5C15"
 			rewards: [{
 				count: 2
@@ -181,6 +185,7 @@
 		}
 		{
 			dependencies: ["35DAE689831EC519"]
+			entity_vis_size: 1.0f
 			id: "1BF4159B502AE4FF"
 			rewards: [{
 				id: "6659E1D3A5933771"
@@ -203,6 +208,7 @@
 		}
 		{
 			dependencies: ["55874DC6452BEA70"]
+			entity_vis_size: 1.0f
 			id: "37B11CCB60C6A79C"
 			rewards: [{
 				id: "18553F2935597D57"
@@ -226,6 +232,7 @@
 		}
 		{
 			dependencies: ["55874DC6452BEA70"]
+			entity_vis_size: 1.0f
 			id: "251D21290027A466"
 			rewards: [{
 				id: "7A9C7A24F4DE6C26"
@@ -249,6 +256,7 @@
 		}
 		{
 			dependencies: ["792F9D2ACDD4937D"]
+			entity_vis_size: 1.0f
 			id: "07F75808024BEAAC"
 			rewards: [{
 				count: 5
@@ -273,6 +281,7 @@
 		}
 		{
 			dependencies: ["55874DC6452BEA70"]
+			entity_vis_size: 1.0f
 			id: "0BD2CBE668B9068E"
 			rewards: [{
 				id: "041755868D7BA3AC"
@@ -296,6 +305,7 @@
 		}
 		{
 			dependencies: ["35DAE689831EC519"]
+			entity_vis_size: 1.0f
 			id: "6BDC6323FF40674C"
 			rewards: [{
 				id: "36BCA420E31A541B"
@@ -317,6 +327,8 @@
 			y: -3.1d
 		}
 		{
+			dependencies: ["56A2B326C1C263C7"]
+			entity_vis_size: 1.0f
 			id: "61784150D4FDE83E"
 			rewards: [
 				{
@@ -347,11 +359,12 @@
 				item: { count: 1, id: "createaddition:electric_motor" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["56A2B326C1C263C7"]
+			entity_vis_size: 1.0f
 			id: "4096F0E0F137F2B5"
 			rewards: [
 				{
@@ -382,11 +395,12 @@
 				item: { count: 1, id: "createaddition:alternator" }
 				type: "item"
 			}]
-			x: -1.75d
-			y: 3.75d
+			x: 3.25d
+			y: 2.5d
 		}
 		{
 			dependencies: ["55874DC6452BEA70"]
+			entity_vis_size: 1.0f
 			id: "659976B2F0FE208B"
 			rewards: [
 				{
@@ -418,10 +432,12 @@
 				item: { count: 1, id: "createaddition:rolling_mill" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.75d
+			x: 0.75d
+			y: 1.25d
 		}
 		{
+			dependencies: ["659976B2F0FE208B"]
+			entity_vis_size: 1.0f
 			id: "05156939869ED68F"
 			rewards: [{
 				id: "221999B83771C8E2"
@@ -439,11 +455,12 @@
 				item: { count: 1, id: "createaddition:connector" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 0.75d
+			y: 3.75d
 		}
 		{
 			dependencies: ["6423DBAC3E6CB3EB"]
+			entity_vis_size: 1.0f
 			id: "2A4F05BE2AA84CF6"
 			rewards: [{
 				id: "60A987A262681DC4"
@@ -462,11 +479,12 @@
 				item: { count: 1, id: "createaddition:large_connector" }
 				type: "item"
 			}]
-			x: 1.25d
-			y: 4.0d
+			x: 2.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["05156939869ED68F"]
+			entity_vis_size: 1.0f
 			id: "04617771924AECD3"
 			rewards: [{
 				id: "395145C0595F9EB7"
@@ -484,11 +502,12 @@
 				item: { count: 1, id: "createaddition:portable_energy_interface" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: 2.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["05156939869ED68F"]
+			entity_vis_size: 1.0f
 			id: "186E6A1AA5F1D757"
 			rewards: [{
 				id: "6C89DB27F7FEBA60"
@@ -506,11 +525,12 @@
 				item: { count: 1, id: "createaddition:tesla_coil" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.75d
+			x: 4.5d
+			y: 3.75d
 		}
 		{
 			dependencies: ["05156939869ED68F"]
+			entity_vis_size: 1.0f
 			id: "1086B5A100DA5218"
 			rewards: [{
 				id: "020B1C54498EFD3B"
@@ -528,11 +548,12 @@
 				item: { count: 1, id: "createaddition:modular_accumulator" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.5d
+			x: 3.25d
+			y: 3.75d
 		}
 		{
 			dependencies: ["659976B2F0FE208B"]
+			entity_vis_size: 1.0f
 			id: "56A2B326C1C263C7"
 			rewards: [{
 				id: "2726CEC5B84E0EE0"
@@ -551,11 +572,12 @@
 				item: { count: 1, id: "createaddition:copper_spool" }
 				type: "item"
 			}]
-			x: -0.75d
+			x: 0.75d
 			y: 2.5d
 		}
 		{
 			dependencies: ["659976B2F0FE208B"]
+			entity_vis_size: 1.0f
 			id: "6423DBAC3E6CB3EB"
 			rewards: [{
 				count: 2
@@ -576,9 +598,11 @@
 				type: "item"
 			}]
 			x: 0.75d
-			y: 2.5d
+			y: 6.25d
 		}
 		{
+			dependencies: ["659976B2F0FE208B"]
+			entity_vis_size: 1.0f
 			id: "2470EE7039FBC09E"
 			rewards: [{
 				id: "4C5EA9E67C987F51"
@@ -596,11 +620,12 @@
 				item: { count: 1, id: "createaddition:electrum_spool" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 0.75d
+			y: 5.0d
 		}
 		{
 			dependencies: ["659976B2F0FE208B"]
+			entity_vis_size: 1.0f
 			id: "630C4CFA28658C1D"
 			rewards: [{
 				id: "377D4E8170A97C3D"
@@ -619,11 +644,12 @@
 				item: { count: 1, id: "createaddition:festive_spool" }
 				type: "item"
 			}]
-			x: 1.75d
-			y: 2.5d
+			x: 2.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["792F9D2ACDD4937D"]
+			entity_vis_size: 1.0f
 			id: "7F0B971E7ABC0DEE"
 			rewards: [{
 				count: 5
@@ -647,6 +673,7 @@
 		}
 		{
 			dependencies: ["07F75808024BEAAC"]
+			entity_vis_size: 1.0f
 			id: "6A4B331DE0D91C04"
 			rewards: [{
 				id: "5912FE3C9A25118B"
@@ -669,6 +696,7 @@
 		}
 		{
 			dependencies: ["1ADE21F3A1856D14"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "35DAE689831EC519"
 			tasks: [{
@@ -677,6 +705,187 @@
 			}]
 			x: 0.0d
 			y: -4.25d
+		}
+		{
+			dependencies: ["098142CCB6379207"]
+			entity_vis_size: 1.0f
+			id: "5FE625721A5DC1DC"
+			rewards: [{
+				id: "32E5C25B1D7BA3E3"
+				item: {
+					components: {
+						"ftbquests:loot_crate": "coins1"
+					}
+					count: 1
+					id: "ftbquests:lootcrate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1889B9262A9AA61A"
+				item: { count: 1, id: "createdieselgenerators:distillation_controller" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5FE625721A5DC1DC"]
+			entity_vis_size: 1.0f
+			id: "1DD42DE58C4D363A"
+			rewards: [{
+				id: "28822AE34A450550"
+				item: {
+					components: {
+						"ftbquests:loot_crate": "coins1"
+					}
+					count: 1
+					id: "ftbquests:lootcrate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2753C3ADB4FAABF0"
+				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["1DD42DE58C4D363A"]
+			entity_vis_size: 1.0f
+			id: "151F72A35AF500DC"
+			rewards: [
+				{
+					id: "536FDE6A293D5D93"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "coins2"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "75E389CBBA959C7D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "create"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "727B1549222483E9"
+				item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["247AFFD894AD595B"]
+			entity_vis_size: 1.0f
+			id: "098142CCB6379207"
+			rewards: [
+				{
+					id: "405457E4CB745BD2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "create"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "595B384C366327B9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "coins1"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7146D0D42734F19E"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_crank" }
+					type: "item"
+				}
+				{
+					id: "4732EAA097619513"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_head" }
+					type: "item"
+				}
+				{
+					id: "2459062CAC2076D2"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }
+					type: "item"
+				}
+				{
+					id: "1D7EFF517BC7D68F"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_hole" }
+					type: "item"
+				}
+			]
+			x: -1.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["55874DC6452BEA70"]
+			entity_vis_size: 1.0f
+			id: "247AFFD894AD595B"
+			rewards: [{
+				id: "77B46F1DB495B238"
+				item: {
+					components: {
+						"ftbquests:loot_crate": "coins1"
+					}
+					count: 1
+					id: "ftbquests:lootcrate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E2649D0314DBDF3"
+				item: { count: 1, id: "createdieselgenerators:oil_scanner" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["247AFFD894AD595B"]
+			entity_vis_size: 1.0f
+			id: "558F89347A5643C3"
+			rewards: [{
+				id: "598A7EA6EEFAD0B3"
+				item: {
+					components: {
+						"ftbquests:loot_crate": "coins1"
+					}
+					count: 1
+					id: "ftbquests:lootcrate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FC54A76E2C109CA"
+				item: { count: 1, id: "createdieselgenerators:basin_lid" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.25d
 		}
 	]
 }

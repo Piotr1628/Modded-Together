@@ -23,6 +23,7 @@
 	quests: [
 		{
 			dependencies: ["10008913EA0470F6"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: false
 			icon_scale: 1.25d
 			id: "7A61DCA5D60B5A6E"
@@ -74,6 +75,7 @@
 		}
 		{
 			dependencies: ["10008913EA0470F6"]
+			entity_vis_size: 1.0f
 			id: "6903210043926E19"
 			rewards: [{
 				count: 4
@@ -99,6 +101,7 @@
 		}
 		{
 			dependencies: ["3ACFD2EF49451E95"]
+			entity_vis_size: 1.0f
 			id: "369D66CACAEDE0D9"
 			rewards: [{
 				count: 4
@@ -122,6 +125,7 @@
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
+			entity_vis_size: 1.0f
 			id: "146E343B2E98B082"
 			size: 1.5d
 			tasks: [{
@@ -135,6 +139,7 @@
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "3030D3181B98EDB3"
 			size: 1.5d
@@ -149,6 +154,7 @@
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
+			entity_vis_size: 1.0f
 			id: "45F1AE33BF507492"
 			size: 1.5d
 			tasks: [{
@@ -162,6 +168,7 @@
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
+			entity_vis_size: 1.0f
 			id: "5DBB28D2E8B47D47"
 			size: 1.5d
 			tasks: [{
@@ -175,6 +182,7 @@
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
+			entity_vis_size: 1.0f
 			id: "2978C7CA72D4A23F"
 			size: 1.5d
 			tasks: [{
@@ -188,6 +196,7 @@
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
+			entity_vis_size: 1.0f
 			id: "6A67EA9C70D23736"
 			size: 1.5d
 			tasks: [{
@@ -201,6 +210,7 @@
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
+			entity_vis_size: 1.0f
 			id: "30FA13BC78E47A56"
 			size: 1.5d
 			tasks: [{
@@ -214,6 +224,7 @@
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
+			entity_vis_size: 1.0f
 			id: "22AF2B64DF025798"
 			size: 1.5d
 			tasks: [{
@@ -227,6 +238,7 @@
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
+			entity_vis_size: 1.0f
 			id: "02ED95A33E2605E7"
 			size: 1.5d
 			tasks: [{
@@ -240,6 +252,7 @@
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
+			entity_vis_size: 1.0f
 			id: "53064706B9E4D8B2"
 			size: 1.5d
 			tasks: [{
@@ -253,6 +266,7 @@
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
+			entity_vis_size: 1.0f
 			id: "46DD0C741220A8F1"
 			size: 1.5d
 			tasks: [{
@@ -266,6 +280,7 @@
 		}
 		{
 			dependencies: ["579E50D9449872AD"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "10008913EA0470F6"
 			rewards: [
@@ -316,6 +331,7 @@
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "5B7069D1204A20D8"
 			size: 1.5d
@@ -330,6 +346,7 @@
 		}
 		{
 			dependencies: ["10008913EA0470F6"]
+			entity_vis_size: 1.0f
 			id: "35FDACB27408FC07"
 			shape: "rsquare"
 			tasks: [{
@@ -345,6 +362,7 @@
 				"3AF461B39D7DD4D2"
 				"10008913EA0470F6"
 			]
+			entity_vis_size: 1.0f
 			id: "2AF547C932FF6A42"
 			tasks: [{
 				advancement: "alshanex_familiars:alshanex_familiars/learn_necromancy"
@@ -357,6 +375,7 @@
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
+			entity_vis_size: 1.0f
 			id: "3ACFD2EF49451E95"
 			rewards: [{
 				id: "49F5C998A64831FF"
@@ -376,6 +395,7 @@
 		}
 		{
 			dependencies: ["35FDACB27408FC07"]
+			entity_vis_size: 1.0f
 			icon: {
 				id: "alshanex_familiars:life_fruit_tier_1"
 			}
@@ -415,6 +435,7 @@
 		}
 		{
 			dependencies: ["3ACFD2EF49451E95"]
+			entity_vis_size: 1.0f
 			id: "6BE5A75F1CB8D1FA"
 			rewards: [{
 				count: 4
@@ -451,6 +472,7 @@
 		}
 		{
 			dependencies: ["3ACFD2EF49451E95"]
+			entity_vis_size: 1.0f
 			id: "63E776C9321E9407"
 			rewards: [{
 				id: "6054EB335FE18B41"
@@ -474,6 +496,7 @@
 		}
 		{
 			dependencies: ["35FDACB27408FC07"]
+			entity_vis_size: 1.0f
 			id: "272EB0866B721CB5"
 			rewards: [{
 				id: "28D729C489339D59"
@@ -497,6 +520,7 @@
 		}
 		{
 			dependencies: ["3ACFD2EF49451E95"]
+			entity_vis_size: 1.0f
 			id: "0C7809E3A8D4DD37"
 			rewards: [{
 				count: 5
@@ -532,6 +556,7 @@
 		}
 		{
 			dependencies: ["3ACFD2EF49451E95"]
+			entity_vis_size: 1.0f
 			id: "51D0F13982902EA5"
 			rewards: [{
 				id: "56D522B5B7087964"

@@ -21,6 +21,7 @@
 	quests: [
 		{
 			dependencies: ["06A30576F3581F25"]
+			entity_vis_size: 1.0f
 			icon_scale: 1.5d
 			id: "1846F5727D2BC433"
 			rewards: [
@@ -59,6 +60,7 @@
 		}
 		{
 			dependencies: ["1846F5727D2BC433"]
+			entity_vis_size: 1.0f
 			id: "0DC4960C79EC8367"
 			rewards: [{
 				id: "53C493B142210A4D"
@@ -74,6 +76,7 @@
 		}
 		{
 			dependencies: ["6C8346BEF1EE2B44"]
+			entity_vis_size: 1.0f
 			id: "0BB53AC414552D70"
 			rewards: [{
 				count: 5
@@ -97,6 +100,7 @@
 		}
 		{
 			dependencies: ["517D9D523E695937"]
+			entity_vis_size: 1.0f
 			id: "6C8346BEF1EE2B44"
 			rewards: [
 				{
@@ -140,6 +144,7 @@
 		}
 		{
 			dependencies: ["6C8346BEF1EE2B44"]
+			entity_vis_size: 1.0f
 			id: "3CE5551031D8BB4D"
 			rewards: [{
 				count: 5
@@ -163,6 +168,7 @@
 		}
 		{
 			dependencies: ["06A30576F3581F25"]
+			entity_vis_size: 1.0f
 			id: "114347412B7B12D4"
 			rewards: [{
 				id: "2CED1EFD15B95882"
@@ -185,6 +191,7 @@
 		}
 		{
 			dependencies: ["06A30576F3581F25"]
+			entity_vis_size: 1.0f
 			icon: {
 				id: "ae2:pattern_encoding_terminal"
 			}
@@ -218,6 +225,7 @@
 		}
 		{
 			dependencies: ["517D9D523E695937"]
+			entity_vis_size: 1.0f
 			icon: {
 				id: "ae2:terminal"
 			}
@@ -258,6 +266,7 @@
 		}
 		{
 			dependencies: ["74550D01582163E0"]
+			entity_vis_size: 1.0f
 			id: "66EA7DEE1464004A"
 			rewards: [{
 				count: 5
@@ -281,6 +290,7 @@
 		}
 		{
 			dependencies: ["72C8FDDBB7EEEDF8"]
+			entity_vis_size: 1.0f
 			id: "26CC2E9C21FBCFD9"
 			rewards: [{
 				count: 4
@@ -304,6 +314,7 @@
 		}
 		{
 			dependencies: ["517D9D523E695937"]
+			entity_vis_size: 1.0f
 			icon_scale: 1.25d
 			id: "72C8FDDBB7EEEDF8"
 			rewards: [{
@@ -329,6 +340,7 @@
 		}
 		{
 			dependencies: ["72C8FDDBB7EEEDF8"]
+			entity_vis_size: 1.0f
 			id: "33C050328C9C732C"
 			rewards: [{
 				count: 4
@@ -352,6 +364,7 @@
 		}
 		{
 			dependencies: ["72C8FDDBB7EEEDF8"]
+			entity_vis_size: 1.0f
 			id: "3492C7F03829A2A5"
 			rewards: [{
 				count: 4
@@ -375,6 +388,7 @@
 		}
 		{
 			dependencies: ["7B6D24D7F57E065A"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			icon: {
 				id: "ae2:controller"
@@ -414,6 +428,7 @@
 		}
 		{
 			dependencies: ["66EA7DEE1464004A"]
+			entity_vis_size: 1.0f
 			id: "15C016A627AEB0F9"
 			rewards: [{
 				count: 5
@@ -437,6 +452,7 @@
 		}
 		{
 			dependencies: ["66EA7DEE1464004A"]
+			entity_vis_size: 1.0f
 			id: "5A8789D7CD900ABD"
 			rewards: [{
 				count: 5
@@ -460,6 +476,7 @@
 		}
 		{
 			dependencies: ["06A30576F3581F25"]
+			entity_vis_size: 1.0f
 			icon: {
 				id: "ae2:formation_plane"
 			}
@@ -485,6 +502,7 @@
 		}
 		{
 			dependencies: ["06A30576F3581F25"]
+			entity_vis_size: 1.0f
 			icon: {
 				id: "ae2:annihilation_plane"
 			}
@@ -511,6 +529,7 @@
 		{
 			dependencies: ["66EA7DEE1464004A"]
 			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
 			id: "20CDFF148D236D98"
 			rewards: [{
 				count: 5
@@ -546,6 +565,7 @@
 		}
 		{
 			dependencies: ["1846F5727D2BC433"]
+			entity_vis_size: 1.0f
 			id: "0E9E1893164A0530"
 			tasks: [
 				{

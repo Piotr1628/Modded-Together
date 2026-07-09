@@ -20,6 +20,7 @@
 	quests: [
 		{
 			dependencies: ["45FE1ED838D186A9"]
+			entity_vis_size: 1.0f
 			hide_text_until_complete: false
 			id: "7E1893A68247C7F2"
 			rewards: [{
@@ -52,6 +53,7 @@
 		}
 		{
 			dependencies: ["7E1893A68247C7F2"]
+			entity_vis_size: 1.0f
 			id: "52F7380CFC8E631A"
 			rewards: [{
 				id: "157062114371A9B5"
@@ -76,6 +78,7 @@
 		}
 		{
 			dependencies: ["1908239C58D071D5"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: false
 			hide_until_deps_complete: true
 			id: "6D6E61135693E853"
@@ -129,6 +132,7 @@
 				"244CA2640DEFE4F6"
 				"7E1893A68247C7F2"
 			]
+			entity_vis_size: 1.0f
 			id: "7BA26B551C64377F"
 			rewards: [{
 				count: 3
@@ -154,6 +158,7 @@
 		}
 		{
 			dependencies: ["7E1893A68247C7F2"]
+			entity_vis_size: 1.0f
 			id: "25760BE1F07360A3"
 			rewards: [{
 				id: "6B72BEA766A60BB8"
@@ -178,6 +183,7 @@
 		}
 		{
 			dependencies: ["7E1893A68247C7F2"]
+			entity_vis_size: 1.0f
 			id: "14739743674C8418"
 			rewards: [{
 				id: "409CC84CE78A51CB"
@@ -202,6 +208,7 @@
 		}
 		{
 			dependencies: ["6D6E61135693E853"]
+			entity_vis_size: 1.0f
 			id: "45FE1ED838D186A9"
 			rewards: [{
 				count: 3
@@ -227,6 +234,7 @@
 		}
 		{
 			dependencies: ["45FE1ED838D186A9"]
+			entity_vis_size: 1.0f
 			id: "78FC6CE082692A76"
 			rewards: [{
 				id: "28A8FEFB2D17A08B"
@@ -251,6 +259,7 @@
 		}
 		{
 			dependencies: ["78FC6CE082692A76"]
+			entity_vis_size: 1.0f
 			id: "1FFAE9F112A5F74C"
 			rewards: [
 				{
@@ -286,6 +295,7 @@
 		}
 		{
 			dependencies: ["45FE1ED838D186A9"]
+			entity_vis_size: 1.0f
 			id: "0F47194D1B1B9873"
 			rewards: [{
 				count: 2
@@ -309,6 +319,7 @@
 		}
 		{
 			dependencies: ["25760BE1F07360A3"]
+			entity_vis_size: 1.0f
 			id: "05ACC1FF1ED8A347"
 			rewards: [{
 				id: "74B3F3C9DEC2FEC7"
@@ -331,6 +342,7 @@
 		}
 		{
 			dependencies: ["52F7380CFC8E631A"]
+			entity_vis_size: 1.0f
 			id: "38D144DEAE824E8B"
 			rewards: [{
 				id: "357AC5D5656305B8"
@@ -353,6 +365,7 @@
 		}
 		{
 			dependencies: ["7E1893A68247C7F2"]
+			entity_vis_size: 1.0f
 			id: "1EABB9B312C2CFD0"
 			rewards: [{
 				id: "1B7412D89AD3167B"

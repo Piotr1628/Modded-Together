@@ -22,6 +22,7 @@
 	quests: [
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			icon: {
 				id: "minecraft:end_crystal"
 			}
@@ -51,6 +52,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "7A2C2E5D041D3EB9"
 			shape: "circle"
 			tasks: [{
@@ -63,6 +65,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "19C1F6B2FD8EFC5B"
 			shape: "circle"
 			tasks: [{
@@ -75,6 +78,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "5EE1B215E8488941"
 			shape: "circle"
 			tasks: [{
@@ -87,6 +91,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "3F50594B331052F9"
 			shape: "circle"
 			tasks: [{
@@ -99,6 +104,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "5FAD3D8A7F96C433"
 			shape: "circle"
 			tasks: [{
@@ -111,6 +117,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "5F1766026818C497"
 			shape: "circle"
 			tasks: [{
@@ -123,6 +130,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "08336E419924ABFF"
 			shape: "circle"
 			tasks: [{
@@ -135,6 +143,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "74A00CCC3C702B46"
 			shape: "circle"
 			tasks: [{
@@ -147,6 +156,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "6B1F52A26737AD5D"
 			shape: "circle"
 			tasks: [{
@@ -159,6 +169,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "7414650A7AF1A74A"
 			shape: "circle"
 			tasks: [{
@@ -171,6 +182,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "5A8863957F1564AE"
 			shape: "circle"
 			tasks: [{
@@ -183,6 +195,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "6855C32B5D1A00F0"
 			shape: "circle"
 			tasks: [{
@@ -195,6 +208,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "52463032DD7740A7"
 			shape: "circle"
 			tasks: [{
@@ -207,6 +221,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "233BCED93C2AA5D1"
 			shape: "circle"
@@ -220,6 +235,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "1FC2153419BD03B6"
 			shape: "circle"
 			tasks: [{
@@ -232,6 +248,7 @@
 		}
 		{
 			dependencies: ["1B57F6F420F3B000"]
+			entity_vis_size: 1.0f
 			id: "4BBFFBCEB00E89E0"
 			shape: "circle"
 			tasks: [{

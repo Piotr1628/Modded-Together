@@ -4,15 +4,57 @@
 	filename: "6loot_crates"
 	group: "6478263FC2EC36C2"
 	id: "1385AC8A1CE21AFE"
-	images: [{
-		height: 6.0d
-		image: "kubejs:textures/quests/title_border.png"
-		rotation: 0.0d
-		width: 12.0d
-		x: -20.0d
-		y: 7.5d
-	}]
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			entity_vis_size: 1.0f
+			id: "24E21C8FA12895A6"
+			rewards: [{
+				count: 3
+				id: "6A9B564FDF49C856"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2E8A5CDFACD2B364"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(relics:relic)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			entity_vis_size: 1.0f
+			icon: {
+				id: "unify:brass_ingot"
+			}
+			id: "08EAE3DF897C5307"
+			rewards: [{
+				count: 64
+				id: "196B37D62FCE7F7D"
+				item: {
+					count: 1
+					id: "unify:brass_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "29040DF91D9B04FF"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+	]
 }
