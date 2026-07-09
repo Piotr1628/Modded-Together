@@ -16,40 +16,8 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2A053C479B3F57AC"]
-			id: "4532CE37DE19EBDF"
-			tasks: [{
-				id: "2BF4225AD87FE870"
-				item: { count: 1, id: "embers:caminite_blend" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["4532CE37DE19EBDF"]
-			id: "0DF656D551A98960"
-			tasks: [{
-				id: "199B350FB35CCF35"
-				item: { count: 1, id: "embers:caminite_brick" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["4532CE37DE19EBDF"]
-			id: "7DEECC42BF2D73F5"
-			tasks: [{
-				id: "549FCD0F83FD54DE"
-				item: { count: 1, id: "embers:caminite_plate" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["7DEECC42BF2D73F5"]
+			dependencies: ["7EB8C55803B0F862"]
+			entity_vis_size: 1.0f
 			id: "2C8D52588D93AC87"
 			rewards: [{
 				id: "3C987E9327F0037B"
@@ -62,16 +30,19 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "43C9E5CCE6F26FE2"
 				item: { count: 1, id: "embers:melter" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0DF656D551A98960"]
+			dependencies: ["2C8D52588D93AC87"]
+			entity_vis_size: 1.0f
 			id: "7647DA12E826B5EF"
 			rewards: [
 				{
@@ -97,67 +68,74 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "5840F269388672B6"
-				item: { count: 1, id: "embers:stamper" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -2.0d
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "5840F269388672B6"
+					item: { count: 1, id: "embers:stamper" }
+					type: "item"
+				}
+				{
+					id: "4FAC8776833B1637"
+					item: { count: 1, id: "embers:stamp_base" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["0DF656D551A98960"]
-			id: "705D822DCFDC0147"
+			dependencies: ["7647DA12E826B5EF"]
+			entity_vis_size: 1.0f
+			id: "7B783D1DA092175C"
 			rewards: [{
-				id: "5489E639A39C9491"
+				id: "7D4F19EA5D76A951"
 				item: {
-					components: {
-						"ftbquests:loot_crate": "ember"
-					}
 					count: 1
-					id: "ftbquests:lootcrate"
+					id: "embers:caminite_plate"
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "7432D2CCF828891A"
-				item: { count: 1, id: "embers:stamp_base" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["4532CE37DE19EBDF"]
-			id: "7B783D1DA092175C"
-			tasks: [{
-				id: "1047043BCA73FC19"
-				item: { count: 1, id: "embers:ingot_stamp" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"705D822DCFDC0147"
-				"7B783D1DA092175C"
-				"7647DA12E826B5EF"
-				"2C8D52588D93AC87"
-				"4F50AEEA6279EC64"
-				"49D96E72456D0B9E"
+			tasks: [
+				{
+					id: "1047043BCA73FC19"
+					item: { count: 1, id: "embers:ingot_stamp" }
+					type: "item"
+				}
+				{
+					id: "571E960BA8AF6898"
+					item: { count: 1, id: "embers:flat_stamp" }
+					type: "item"
+				}
 			]
-			id: "3051664621545003"
-			tasks: [{
-				id: "098742FC6877BA62"
-				item: { count: 1, id: "embers:dawnstone_ingot" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.5d
+			x: 5.25d
+			y: 3.0d
 		}
 		{
-			dependencies: ["3F6DF97BA28F635F"]
+			dependencies: ["4F50AEEA6279EC64"]
+			entity_vis_size: 1.0f
+			id: "3051664621545003"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "098742FC6877BA62"
+					item: { count: 1, id: "embers:dawnstone_ingot" }
+					type: "item"
+				}
+				{
+					id: "42AC6FE5E8D6D0D9"
+					item: { count: 1, id: "embers:dawnstone_plate" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["6339D41BB7EA9ED4"]
+			entity_vis_size: 1.0f
 			id: "7EB8C55803B0F862"
 			rewards: [
 				{
@@ -183,27 +161,22 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "212D494F1BBD3461"
 				item: { count: 1, id: "embers:ember_activator" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.5d
+			x: 4.0d
+			y: 0.25d
 		}
 		{
-			dependencies: ["2A053C479B3F57AC"]
-			id: "3F6DF97BA28F635F"
-			tasks: [{
-				id: "63D9DA32DA653D2F"
-				item: { count: 1, id: "unify:iron_sheet" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["035924A00FCDBC1C"]
+			dependencies: [
+				"035924A00FCDBC1C"
+				"27E73CE068DB1450"
+			]
+			entity_vis_size: 1.0f
 			id: "2A053C479B3F57AC"
 			rewards: [{
 				id: "6792E3CD5524A029"
@@ -221,11 +194,12 @@
 				item: { count: 1, id: "embers:tinker_hammer" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -0.5d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["3F6DF97BA28F635F"]
+			dependencies: ["6339D41BB7EA9ED4"]
+			entity_vis_size: 1.0f
 			id: "6B6F3826CBF62F73"
 			tasks: [
 				{
@@ -249,11 +223,12 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 1.0d
+			x: 5.25d
+			y: -1.25d
 		}
 		{
 			dependencies: ["6B6F3826CBF62F73"]
+			entity_vis_size: 1.0f
 			id: "35260E4EA737E4CF"
 			rewards: [
 				{
@@ -284,11 +259,12 @@
 				item: { count: 1, id: "embers:item_vacuum" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: 6.25d
+			y: -1.25d
 		}
 		{
-			dependencies: ["3F6DF97BA28F635F"]
+			dependencies: ["6B6F3826CBF62F73"]
+			entity_vis_size: 1.0f
 			id: "0988171D04FD481A"
 			rewards: [{
 				id: "572D1A4414A6C691"
@@ -306,11 +282,12 @@
 				item: { count: 1, id: "embers:fluid_vessel" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: 5.25d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0988171D04FD481A"]
+			entity_vis_size: 1.0f
 			id: "3D8D65EE1F5BBE38"
 			rewards: [
 				{
@@ -358,22 +335,25 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 3.5d
+			x: 6.25d
+			y: -2.5d
 		}
 		{
-			dependencies: ["3F6DF97BA28F635F"]
+			dependencies: ["35260E4EA737E4CF"]
+			entity_vis_size: 1.0f
 			id: "0754B66CF5E31F83"
 			tasks: [{
 				id: "7697AD7735086AE8"
 				item: { count: 1, id: "embers:item_dropper" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: 8.25d
+			y: -1.25d
 		}
 		{
-			dependencies: ["6339D41BB7EA9ED4"]
+			dependencies: ["035924A00FCDBC1C"]
+			entity_vis_size: 1.5f
+			icon_scale: 1.5d
 			id: "27E73CE068DB1450"
 			rewards: [{
 				id: "34ED433C0476DA00"
@@ -386,34 +366,33 @@
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "0F9BD98BCE6C33B6"
-					item: { count: 1, id: "embers:ember_bore" }
-					type: "item"
-				}
-				{
-					id: "63EB0C441C64FD5B"
-					item: { count: 1, id: "embers:excavation_buckets" }
-					type: "item"
-				}
-			]
-			x: 3.5d
-			y: 1.0d
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "0F9BD98BCE6C33B6"
+				item: { count: 1, id: "embers:ember_bore" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["3F6DF97BA28F635F"]
+			dependencies: ["27E73CE068DB1450"]
+			entity_vis_size: 1.0f
 			id: "6339D41BB7EA9ED4"
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "722809FE44F266B4"
 				item: { count: 1, id: "embers:mechanical_core" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 4.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["6339D41BB7EA9ED4"]
+			dependencies: ["7647DA12E826B5EF"]
+			entity_vis_size: 1.0f
 			id: "4F50AEEA6279EC64"
 			rewards: [{
 				id: "0408E273109CD05D"
@@ -426,16 +405,19 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "4615EA5634C9DB8C"
 				item: { count: 1, id: "embers:mixer_centrifuge" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 4.0d
+			y: 4.75d
 		}
 		{
 			dependencies: ["6339D41BB7EA9ED4"]
+			entity_vis_size: 1.0f
 			id: "17E30219AD43B90C"
 			rewards: [
 				{
@@ -466,22 +448,12 @@
 				item: { count: 1, id: "embers:hearth_coil" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["27E73CE068DB1450"]
-			id: "49D96E72456D0B9E"
-			tasks: [{
-				id: "4C49F90B16568BD9"
-				item: { count: 1, id: "embers:ember_crystal" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.0d
+			x: 2.75d
+			y: -1.25d
 		}
 		{
 			dependencies: ["7EB8C55803B0F862"]
+			entity_vis_size: 1.0f
 			id: "37C2F77B679A20B6"
 			rewards: [{
 				id: "44C2CF235B4D878E"
@@ -499,11 +471,12 @@
 				item: { count: 1, id: "embers:copper_cell" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 6.0d
+			y: 0.25d
 		}
 		{
 			dependencies: ["7EB8C55803B0F862"]
+			entity_vis_size: 1.0f
 			id: "454BCE20D19A946E"
 			rewards: [{
 				id: "50F02FA1D2242648"
@@ -533,11 +506,12 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 3.0d
+			x: 5.25d
+			y: 0.25d
 		}
 		{
 			dependencies: ["7EB8C55803B0F862"]
+			entity_vis_size: 1.0f
 			id: "1BCA029480FF9B9E"
 			rewards: [{
 				id: "13CD16FFE8F4353B"
@@ -555,11 +529,12 @@
 				item: { count: 1, id: "embers:heat_exchanger" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: 7.5d
+			y: 0.25d
 		}
 		{
 			dependencies: ["2A053C479B3F57AC"]
+			entity_vis_size: 1.0f
 			id: "22880C44CEB448EA"
 			rewards: [{
 				id: "4B4B5519E58FB76D"
@@ -577,11 +552,12 @@
 				item: { count: 1, id: "embers:tinker_lens" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 0.0d
+			x: 0.75d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4C2861709BE5F726"]
+			entity_vis_size: 1.0f
 			id: "7014E58FB44EF43A"
 			rewards: [{
 				id: "364971DDCBEAB7BA"
@@ -599,11 +575,12 @@
 				item: { count: 1, id: "embers:ashen_amulet" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			x: 5.25d
+			y: 9.5d
 		}
 		{
-			dependencies: ["78A5416AF415C317"]
+			dependencies: ["3051664621545003"]
+			entity_vis_size: 1.0f
 			id: "2D83207C3FD8EEE7"
 			rewards: [{
 				id: "61833A04E1134650"
@@ -621,22 +598,12 @@
 				item: { count: 1, id: "embers:alchemy_tablet" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: 5.25d
+			y: 8.25d
 		}
 		{
 			dependencies: ["3051664621545003"]
-			id: "78A5416AF415C317"
-			tasks: [{
-				id: "4D206D300BDB671B"
-				item: { count: 1, id: "embers:dawnstone_plate" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["78A5416AF415C317"]
+			entity_vis_size: 1.0f
 			id: "6A1E74CADFF0AA9B"
 			rewards: [{
 				id: "442A1BA419222E54"
@@ -654,69 +621,72 @@
 				item: { count: 1, id: "embers:alchemy_pedestal" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.0d
+			x: 2.5d
+			y: 8.25d
 		}
 		{
-			dependencies: [
-				"2D83207C3FD8EEE7"
-				"6A1E74CADFF0AA9B"
-			]
+			dependencies: ["2D83207C3FD8EEE7"]
+			entity_vis_size: 1.0f
 			id: "70BC41F1E6861697"
 			tasks: [{
 				id: "22343EBA1B036C14"
 				item: { count: 1, id: "embers:alchemical_waste" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.5d
+			x: 6.5d
+			y: 8.25d
 		}
 		{
 			dependencies: ["70BC41F1E6861697"]
+			entity_vis_size: 1.0f
 			id: "4C2861709BE5F726"
 			tasks: [{
 				id: "531C370D0F5394B9"
 				item: { count: 1, id: "embers:ash" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 6.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4C2861709BE5F726"]
+			entity_vis_size: 1.0f
 			id: "3BB9DC29685AFD63"
 			tasks: [{
 				id: "2A0D9348931D13F6"
 				item: { count: 1, id: "embers:ashen_fabric" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.5d
+			x: 6.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["2D83207C3FD8EEE7"]
+			entity_vis_size: 1.0f
 			id: "57319E4E9B5E44D4"
 			tasks: [{
 				id: "107E2A9C101F8EB7"
 				item: { count: 1, id: "embers:eldritch_insignia" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 8.0d
+			y: 8.25d
 		}
 		{
 			dependencies: ["57319E4E9B5E44D4"]
+			entity_vis_size: 1.0f
 			id: "53890D8AA011D573"
 			tasks: [{
 				id: "54F4EAD7AFCD6FF8"
 				item: { count: 1, id: "embers:nonbeliever_amulet" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 8.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3BB9DC29685AFD63"]
+			entity_vis_size: 1.0f
 			id: "31508207C85E16B1"
 			rewards: [{
 				id: "189E30D6E3B0F2E1"
@@ -734,11 +704,12 @@
 				item: { count: 1, id: "embers:ashen_goggles" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 6.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6A1E74CADFF0AA9B"]
+			entity_vis_size: 1.0f
 			id: "3CCFE60CB3DA9A63"
 			rewards: [{
 				id: "719164904B7FEFDE"
@@ -756,33 +727,36 @@
 				item: { count: 1, id: "embers:entropic_enumerator" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.5d
+			x: 1.0d
+			y: 8.25d
 		}
 		{
 			dependencies: ["35260E4EA737E4CF"]
+			entity_vis_size: 1.0f
 			id: "0283BA8F872CB01E"
 			tasks: [{
 				id: "35A1B8F3E37ECB02"
 				item: { count: 1, id: "embers:item_dial" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.5d
+			x: 7.25d
+			y: -1.25d
 		}
 		{
 			dependencies: ["3D8D65EE1F5BBE38"]
+			entity_vis_size: 1.0f
 			id: "24E7329D79009F09"
 			tasks: [{
 				id: "616DAC6AB4BA05BD"
 				item: { count: 1, id: "embers:fluid_dial" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.5d
+			x: 7.25d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6A1E74CADFF0AA9B"]
+			entity_vis_size: 1.0f
 			id: "0BAB3697515D88AA"
 			rewards: [{
 				id: "363A7588AF5D554B"
@@ -800,11 +774,12 @@
 				item: { count: 1, id: "embers:wildfire_core" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -3.5d
+			x: 2.5d
+			y: 9.75d
 		}
 		{
 			dependencies: ["0BAB3697515D88AA"]
+			entity_vis_size: 1.0f
 			id: "46037D117249B542"
 			rewards: [{
 				id: "1CD11B12E436A1DF"
@@ -822,11 +797,12 @@
 				item: { count: 1, id: "embers:ignem_reactor" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: -5.0d
+			x: 2.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["17E30219AD43B90C"]
+			entity_vis_size: 1.0f
 			id: "34E22CF3373BB42E"
 			rewards: [{
 				id: "54E605FDAFBF11D7"
@@ -844,11 +820,12 @@
 				item: { count: 1, id: "embers:heat_insulation" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.5d
+			x: 2.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["17E30219AD43B90C"]
+			entity_vis_size: 1.0f
 			id: "5A69669522AB9A3D"
 			rewards: [{
 				id: "02783FFA01B89C24"
@@ -866,11 +843,12 @@
 				item: { count: 1, id: "embers:char_instiller" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 1.75d
+			y: -1.25d
 		}
 		{
 			dependencies: ["17E30219AD43B90C"]
+			entity_vis_size: 1.0f
 			id: "7D4C6F9A3AB2BFB1"
 			rewards: [{
 				id: "58151F96613720F5"
@@ -888,11 +866,12 @@
 				item: { count: 1, id: "embers:atmospheric_bellows" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.0d
+			x: 2.75d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0BAB3697515D88AA"]
+			entity_vis_size: 1.0f
 			id: "4D6AD7E9874B925B"
 			rewards: [{
 				id: "45FA0614FC718D72"
@@ -910,22 +889,35 @@
 				item: { count: 1, id: "embers:wildfire_stirling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.0d
+			x: 1.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["6A1E74CADFF0AA9B"]
+			entity_vis_size: 1.0f
 			id: "4F8F61EB15CEF1BC"
+			rewards: [{
+				id: "6E0A026BFD09A864"
+				item: {
+					components: {
+						"ftbquests:loot_crate": "coins2"
+					}
+					count: 1
+					id: "ftbquests:lootcrate"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CD9C804C0A4AB71"
 				item: { count: 1, id: "embers:focal_lens" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -5.0d
+			x: 1.0d
+			y: 9.25d
 		}
 		{
-			dependencies: ["78A5416AF415C317"]
+			dependencies: ["3051664621545003"]
+			entity_vis_size: 1.0f
 			id: "1A5DFE336371C775"
 			tasks: [
 				{
@@ -944,11 +936,12 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -4.5d
+			x: 6.75d
+			y: 6.25d
 		}
 		{
-			dependencies: ["49D96E72456D0B9E"]
+			dependencies: ["7EB8C55803B0F862"]
+			entity_vis_size: 1.0f
 			id: "49F1CDC6DAFE13E2"
 			rewards: [{
 				id: "575A84A4823F9A21"
@@ -966,11 +959,12 @@
 				item: { count: 1, id: "embers:mini_boiler" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 6.75d
+			y: 0.25d
 		}
 		{
-			dependencies: ["78A5416AF415C317"]
+			dependencies: ["3051664621545003"]
+			entity_vis_size: 1.0f
 			id: "1CCD8F730E8FC861"
 			rewards: [{
 				id: "605D5CA5A611E961"
@@ -988,8 +982,181 @@
 				item: { count: 1, id: "embers:beam_splitter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -5.0d
+			x: 5.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["27E73CE068DB1450"]
+			entity_vis_size: 1.0f
+			id: "3FC33B5CDA1DCA65"
+			tasks: [{
+				id: "527880F6326713AB"
+				item: { count: 1, id: "embers:excavation_buckets" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0BAB3697515D88AA"
+				"3051664621545003"
+			]
+			entity_vis_size: 1.0f
+			id: "69685A6383594A0A"
+			rewards: [{
+				id: "6542026C81DCF5F5"
+				item: {
+					components: {
+						"ftbquests:loot_crate": "coins1"
+					}
+					count: 1
+					id: "ftbquests:lootcrate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65A38076CDFBF35B"
+				item: { count: 1, id: "embers:inferno_forge" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["3051664621545003"]
+			entity_vis_size: 1.0f
+			id: "7476CFA6F3CBB2A1"
+			rewards: [{
+				id: "6DA1B5F7AAD2ABB9"
+				item: {
+					components: {
+						"ftbquests:loot_crate": "augments"
+					}
+					count: 1
+					id: "ftbquests:lootcrate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C6856A87EA995C5"
+				item: { count: 1, id: "embers:dawnstone_anvil" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["7476CFA6F3CBB2A1"]
+			entity_vis_size: 1.0f
+			id: "1A7A9E7BCAD004CF"
+			rewards: [{
+				id: "11D605B70566136B"
+				item: {
+					count: 1
+					id: "embers:dawnstone_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1151566928861520"
+				item: { count: 1, id: "embers:automatic_hammer" }
+				type: "item"
+			}]
+			x: -0.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["7476CFA6F3CBB2A1"]
+			entity_vis_size: 1.0f
+			id: "14E60E330EDADB98"
+			rewards: [{
+				id: "46DA9A11E3E7C081"
+				item: {
+					components: {
+						"ftbquests:loot_crate": "augments"
+					}
+					count: 1
+					id: "ftbquests:lootcrate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0323355E9454F027"
+				item: { count: 1, id: "embers:clockwork_pickaxe" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.75d
+		}
+		{
+			dependencies: ["7476CFA6F3CBB2A1"]
+			entity_vis_size: 1.0f
+			id: "39420EB06038CF34"
+			rewards: [{
+				id: "11EAB10ADF4CB96C"
+				item: {
+					components: {
+						"ftbquests:loot_crate": "augments"
+					}
+					count: 1
+					id: "ftbquests:lootcrate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FD7FF301189C435"
+				item: { count: 1, id: "embers:clockwork_axe" }
+				type: "item"
+			}]
+			x: 1.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["7476CFA6F3CBB2A1"]
+			entity_vis_size: 1.0f
+			id: "25DCBCA3E08B26FC"
+			rewards: [{
+				id: "21AF81C6E7CBB33A"
+				item: {
+					components: {
+						"ftbquests:loot_crate": "augments"
+					}
+					count: 1
+					id: "ftbquests:lootcrate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C3D92C8506AC435"
+				item: { count: 1, id: "embers:blazing_ray" }
+				type: "item"
+			}]
+			x: -0.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["7476CFA6F3CBB2A1"]
+			entity_vis_size: 1.0f
+			id: "753437BA2894E339"
+			rewards: [{
+				id: "0B4D0EC2D777CB16"
+				item: {
+					components: {
+						"ftbquests:loot_crate": "augments"
+					}
+					count: 1
+					id: "ftbquests:lootcrate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33B77E28287E91F5"
+				item: { count: 1, id: "embers:grandhammer" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.75d
 		}
 	]
 }

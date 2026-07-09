@@ -60,6 +60,7 @@
 	quests: [
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "582ED715B5623E90"
 			require_sequential_tasks: false
@@ -84,6 +85,7 @@
 		}
 		{
 			dependencies: ["582ED715B5623E90"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "5AF5CFA1A9880D2B"
 			rewards: [{
@@ -109,6 +111,7 @@
 		}
 		{
 			dependencies: ["7F972B3D9AF131FC"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "1F3C64299F7730B6"
 			rewards: [{
@@ -134,6 +137,7 @@
 		}
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			icon: {
 				components: {
@@ -156,6 +160,7 @@
 		}
 		{
 			dependencies: ["290BBC2EE0FB5A41"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "3D4AE8E64B761BB0"
 			rewards: [{
@@ -174,6 +179,7 @@
 		}
 		{
 			dependencies: ["3D4AE8E64B761BB0"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "41E1F2A2D07C8D21"
 			rewards: [{
@@ -192,6 +198,7 @@
 		}
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			icon: {
 				components: {
@@ -214,6 +221,7 @@
 		}
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "247CA3EA18B94B1F"
@@ -244,6 +252,7 @@
 		}
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -271,6 +280,7 @@
 		}
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -299,6 +309,7 @@
 		{
 			dependencies: ["1F3C64299F7730B6"]
 			dependency_requirement: "all_started"
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -329,6 +340,7 @@
 		}
 		{
 			dependencies: ["517D927F6C015007"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "7122B06523BECA52"
 			rewards: [{
@@ -356,6 +368,7 @@
 				"5AF5CFA1A9880D2B"
 				"7122B06523BECA52"
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "70F3C7361F4E29F6"
@@ -400,6 +413,7 @@
 				"5AF5CFA1A9880D2B"
 				"7122B06523BECA52"
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "7DA050AE32FF8540"
 			rewards: [{
@@ -440,6 +454,7 @@
 		}
 		{
 			dependencies: ["290BBC2EE0FB5A41"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "5C4DBF6C3BA8406B"
 			tasks: [
@@ -461,6 +476,7 @@
 		}
 		{
 			dependencies: ["5C4DBF6C3BA8406B"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "1F0D215040AF5AAD"
 			rewards: [
@@ -492,6 +508,15 @@
 			tasks: [{
 				custom_name: "Wither"
 				entity: "minecraft:wither"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					components: {
 						"!ftbquests:icon": { }
@@ -508,6 +533,7 @@
 		}
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			icon: {
 				id: "create:scorchia"
@@ -534,6 +560,7 @@
 		}
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "1E6F467BC0C69996"
 			rewards: [{
@@ -560,6 +587,7 @@
 		}
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "32BB8D8143117BAB"
 			rewards: [{
@@ -586,6 +614,7 @@
 		}
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "0AF3C6371F5EA386"
 			rewards: [{
@@ -612,6 +641,7 @@
 		}
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "4E257D15B33A6549"
 			rewards: [{
@@ -638,6 +668,7 @@
 		}
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "063CFBA2F28C219F"
 			rewards: [{
@@ -664,6 +695,7 @@
 		}
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "699BFAC54E4C0413"
 			rewards: [{
@@ -690,6 +722,7 @@
 		}
 		{
 			dependencies: ["1F3C64299F7730B6"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "7ED2CB67250FB222"
 			rewards: [{
